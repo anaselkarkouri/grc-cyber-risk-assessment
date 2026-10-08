@@ -1,0 +1,13 @@
+# Reproduire les vérifications
+
+Scripts adaptés au paquet final : ROOT est la racine située deux parents au-dessus du script, donc le dossier qui contient outputs. Les nouveaux essais écrivent dans work/grc_laboratoire de cette racine et dans les annexes outputs. Les versions réellement exécutées restent dans le work/grc_laboratoire/scripts de la mission originale ; leurs preuves ne sont pas remplacées.
+
+Prévoir Python 3.12, Git 2.48 et OpenSSL livré avec Git, VirtualBox 7.1.10 ou version validée sur son poste. Les chemins Git/VBox sont ceux du Windows testé ; adapter seulement les emplacements des exécutables si nécessaire. Installer les dépendances du fichier requirements_laboratoire.txt avec pip --target work/grc_laboratoire/python_deps depuis la racine. Les versions et empreintes Keycloak/JDK sont épinglées. Les bibliothèques transitives se résolvent avec pip ; ce n’est pas une image bit à bit de tout le poste.
+
+Ordre : tests_locaux.py pour T04/T03 ; prepare_keycloak.py puis start_keycloak.py, vérifier la disponibilité, puis test_keycloak.py pour T01. Secrets et certificat privés sous ACL dans work, jamais dans outputs. Les tokens/OTP restent en mémoire ou dans les fichiers privés du seul laboratoire.
+
+T02 : les scripts originaux permettent de réutiliser la VM déjà créée. Dans une nouvelle racine, preparer_wazuh.py refuse une VM de même nom enregistrée ailleurs. Une reproduction sur un autre poste impose de vérifier le réseau host-only, l’adresse libre, les MAC de cloud-init et la destination de son agent personnel avant tout changement. Le choix EFI/HPET et la restriction SATA reflètent la correction observée ; aucune garantie générale de compatibilité VirtualBox. Aucun réseau d’entreprise ou de stage n’est autorisé par cette notice.
+
+Après installation, inspecter_wazuh.py vérifie le service/agent. En PowerShell administrateur, inventaire_eleve.ps1 relève l’état ; t02_source_windows.ps1 -Evenement -GestionnaireLaboratoireConfirme -Compte LAB-GRC-EVT2 utilise un nom inexistant, crée un échec puis désactive le compte. relever_wazuh.py recherche des événements 4625 sur LAB-GRC-EVT* ; completer_retention.py examine les paramètres. Les accès SSH des exports vérifient la clé hôte connue ; le premier inventaire applique TOFU. Comparer l’empreinte à la console sur un nouveau déploiement. Ne pas forcer un verrou dpkg ; depanner_wazuh.py conserve ses diagnostics dans work.
+
+Une exécution nouvelle crée de nouvelles pièces datées. Actualiser la fiche, les index et manifestes après revue humaine. Les essais ne clôturent jamais les traitements fictifs. Lire aussi Portfolio_GRC_Anas/NOTICE_PERSONNELLE.md pour la présentation et les limites.

@@ -1,0 +1,3 @@
+Première lecture UTF-8 globale : UnicodeDecodeError, byte 0xe9, position 7201. Aucun résultat de réception exporté à cette tentative.
+Correction du harnais : lecture binaire ligne par ligne, UTF-8 puis CP1252 en cas d’erreur ; seuls champs autorisés du compte LAB-GRC-EVT exportés. La ligne de cet événement s’est décodée correctement en UTF-8. Les données brutes n’ont pas été modifiées.
+Retest d’export : T02-P03/P04, puis comparaison exacte T02-P06.

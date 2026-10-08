@@ -1,0 +1,13 @@
+{
+  "date_utc": "2026-10-07T19:39:32.134327+00:00",
+  "statut": "reussi",
+  "perimetre": "deux comptes Keycloak, API roles, MFA TOTP et session/refresh",
+  "preuves": [
+    "T01-P01_regles_roles.json",
+    "T01-P02_autorisations.json",
+    "T01-P03_mfa.json",
+    "T01-P04_revocation_recuperation.json",
+    "T01_chemins_alternatifs.json",
+    "T01_evenements_assainis.json"
+  ]
+}

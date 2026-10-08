@@ -1,0 +1,243 @@
+{
+  "date_utc": "2026-10-07T19:39:32.133336+00:00",
+  "evenements": [
+    {
+      "time": 1791401971891,
+      "type": "LOGIN_ERROR",
+      "error": "invalid_user_credentials",
+      "clientId": "admin-cli",
+      "realmId": "grc-lab"
+    },
+    {
+      "time": 1791401971853,
+      "type": "LOGIN_ERROR",
+      "error": "not_allowed",
+      "clientId": "grc-evidence",
+      "realmId": "grc-lab"
+    },
+    {
+      "time": 1791401971684,
+      "type": "CODE_TO_TOKEN",
+      "error": null,
+      "clientId": "grc-evidence",
+      "realmId": "grc-lab"
+    },
+    {
+      "time": 1791401971672,
+      "type": "LOGIN",
+      "error": null,
+      "clientId": "grc-evidence",
+      "realmId": "grc-lab"
+    },
+    {
+      "time": 1791401971569,
+      "type": "CODE_TO_TOKEN",
+      "error": null,
+      "clientId": "grc-evidence",
+      "realmId": "grc-lab"
+    },
+    {
+      "time": 1791401971557,
+      "type": "LOGIN",
+      "error": null,
+      "clientId": "grc-evidence",
+      "realmId": "grc-lab"
+    },
+    {
+      "time": 1791401941442,
+      "type": "LOGIN_ERROR",
+      "error": "invalid_user_credentials",
+      "clientId": "grc-evidence",
+      "realmId": "grc-lab"
+    },
+    {
+      "time": 1791401941257,
+      "type": "CODE_TO_TOKEN",
+      "error": null,
+      "clientId": "grc-evidence",
+      "realmId": "grc-lab"
+    },
+    {
+      "time": 1791401941243,
+      "type": "LOGIN",
+      "error": null,
+      "clientId": "grc-evidence",
+      "realmId": "grc-lab"
+    },
+    {
+      "time": 1791401941158,
+      "type": "CODE_TO_TOKEN",
+      "error": null,
+      "clientId": "grc-evidence",
+      "realmId": "grc-lab"
+    },
+    {
+      "time": 1791401941140,
+      "type": "LOGIN",
+      "error": null,
+      "clientId": "grc-evidence",
+      "realmId": "grc-lab"
+    },
+    {
+      "time": 1791401821701,
+      "type": "CODE_TO_TOKEN",
+      "error": null,
+      "clientId": "grc-evidence",
+      "realmId": "grc-lab"
+    },
+    {
+      "time": 1791401821688,
+      "type": "LOGIN",
+      "error": null,
+      "clientId": "grc-evidence",
+      "realmId": "grc-lab"
+    },
+    {
+      "time": 1791401821586,
+      "type": "CODE_TO_TOKEN",
+      "error": null,
+      "clientId": "grc-evidence",
+      "realmId": "grc-lab"
+    },
+    {
+      "time": 1791401821569,
+      "type": "LOGIN",
+      "error": null,
+      "clientId": "grc-evidence",
+      "realmId": "grc-lab"
+    },
+    {
+      "time": 1791401802428,
+      "type": "LOGIN_ERROR",
+      "error": "invalid_user_credentials",
+      "clientId": "grc-evidence",
+      "realmId": "grc-lab"
+    },
+    {
+      "time": 1791401802222,
+      "type": "CODE_TO_TOKEN",
+      "error": null,
+      "clientId": "grc-evidence",
+      "realmId": "grc-lab"
+    },
+    {
+      "time": 1791401802206,
+      "type": "LOGIN",
+      "error": null,
+      "clientId": "grc-evidence",
+      "realmId": "grc-lab"
+    },
+    {
+      "time": 1791401802102,
+      "type": "CODE_TO_TOKEN",
+      "error": null,
+      "clientId": "grc-evidence",
+      "realmId": "grc-lab"
+    },
+    {
+      "time": 1791401802082,
+      "type": "LOGIN",
+      "error": null,
+      "clientId": "grc-evidence",
+      "realmId": "grc-lab"
+    },
+    {
+      "time": 1791401731631,
+      "type": "CODE_TO_TOKEN",
+      "error": null,
+      "clientId": "grc-evidence",
+      "realmId": "grc-lab"
+    },
+    {
+      "time": 1791401731615,
+      "type": "LOGIN",
+      "error": null,
+      "clientId": "grc-evidence",
+      "realmId": "grc-lab"
+    },
+    {
+      "time": 1791401731510,
+      "type": "CODE_TO_TOKEN",
+      "error": null,
+      "clientId": "grc-evidence",
+      "realmId": "grc-lab"
+    },
+    {
+      "time": 1791401731495,
+      "type": "LOGIN",
+      "error": null,
+      "clientId": "grc-evidence",
+      "realmId": "grc-lab"
+    },
+    {
+      "time": 1791401713360,
+      "type": "LOGIN_ERROR",
+      "error": "invalid_user_credentials",
+      "clientId": "grc-evidence",
+      "realmId": "grc-lab"
+    },
+    {
+      "time": 1791401713154,
+      "type": "CODE_TO_TOKEN",
+      "error": null,
+      "clientId": "grc-evidence",
+      "realmId": "grc-lab"
+    },
+    {
+      "time": 1791401713120,
+      "type": "LOGIN",
+      "error": null,
+      "clientId": "grc-evidence",
+      "realmId": "grc-lab"
+    },
+    {
+      "time": 1791401713113,
+      "type": "UPDATE_CREDENTIAL",
+      "error": null,
+      "clientId": "grc-evidence",
+      "realmId": "grc-lab"
+    },
+    {
+      "time": 1791401713112,
+      "type": "UPDATE_TOTP",
+      "error": null,
+      "clientId": "grc-evidence",
+      "realmId": "grc-lab"
+    },
+    {
+      "time": 1791401712938,
+      "type": "CODE_TO_TOKEN",
+      "error": null,
+      "clientId": "grc-evidence",
+      "realmId": "grc-lab"
+    },
+    {
+      "time": 1791401712860,
+      "type": "LOGIN",
+      "error": null,
+      "clientId": "grc-evidence",
+      "realmId": "grc-lab"
+    },
+    {
+      "time": 1791401712839,
+      "type": "UPDATE_CREDENTIAL",
+      "error": null,
+      "clientId": "grc-evidence",
+      "realmId": "grc-lab"
+    },
+    {
+      "time": 1791401712838,
+      "type": "UPDATE_TOTP",
+      "error": null,
+      "clientId": "grc-evidence",
+      "realmId": "grc-lab"
+    },
+    {
+      "time": 1791401573643,
+      "type": "LOGIN_ERROR",
+      "error": "cookie_not_found",
+      "clientId": "grc-evidence",
+      "realmId": "grc-lab"
+    }
+  ]
+}

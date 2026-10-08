@@ -1,0 +1,187 @@
+{
+  "date_utc": "2026-10-07T19:28:39.6728628Z",
+  "timezone": {
+    "Id": "Morocco Standard Time",
+    "BaseUtcOffset": {
+      "Ticks": 0,
+      "Days": 0,
+      "Hours": 0,
+      "Milliseconds": 0,
+      "Microseconds": 0,
+      "Nanoseconds": 0,
+      "Minutes": 0,
+      "Seconds": 0,
+      "TotalDays": 0.0,
+      "TotalHours": 0.0,
+      "TotalMilliseconds": 0.0,
+      "TotalMicroseconds": 0.0,
+      "TotalNanoseconds": 0.0,
+      "TotalMinutes": 0.0,
+      "TotalSeconds": 0.0
+    }
+  },
+  "os": {
+    "Caption": "Microsoft Windows 11 Professionnel",
+    "Version": "10.0.26300",
+    "TotalVisibleMemorySize": 20693432,
+    "FreePhysicalMemory": 9726924
+  },
+  "cpu": {
+    "Name": "11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz",
+    "NumberOfCores": 4,
+    "NumberOfLogicalProcessors": 8
+  },
+  "disks": [
+    {
+      "Name": "C",
+      "Used": 196334661632,
+      "Free": 47429775360
+    },
+    {
+      "Name": "E",
+      "Used": 1210802176,
+      "Free": 9274953728
+    },
+    {
+      "Name": "Temp",
+      "Used": 196334661632,
+      "Free": 47429775360
+    }
+  ],
+  "services": [
+    {
+      "Name": "ssh-agent",
+      "Status": 1
+    },
+    {
+      "Name": "VBoxSDS",
+      "Status": 1
+    },
+    {
+      "Name": "vmcompute",
+      "Status": 1
+    },
+    {
+      "Name": "WazuhSvc",
+      "Status": 4
+    }
+  ],
+  "vm": [
+    "\"Kali\" {191e76fc-7ff0-447f-9bb5-358bc8eac4dd}",
+    "\"Metasploit Ubuntu\" {0b525f10-e04e-46f2-a097-ed60b1c8ae95}",
+    "\"Metasploit Windows\" {5f3764a7-b29a-4a62-a721-f07fc764fe1a}",
+    "\"Windows 11 Forensic\" {c4471117-a667-4694-99b6-783b7b3e78db}"
+  ],
+  "running_vm": [],
+  "vbox_version": "7.1.10r169112",
+  "network": [
+    {
+      "InterfaceAlias": "Ethernet 3",
+      "IPAddress": "172.28.128.1",
+      "PrefixLength": 24
+    },
+    {
+      "InterfaceAlias": "Ethernet",
+      "IPAddress": "169.254.126.83",
+      "PrefixLength": 16
+    },
+    {
+      "InterfaceAlias": "Ethernet 2",
+      "IPAddress": "192.168.56.1",
+      "PrefixLength": 24
+    },
+    {
+      "InterfaceAlias": "Connexion au réseau local* 2",
+      "IPAddress": "169.254.40.160",
+      "PrefixLength": 16
+    },
+    {
+      "InterfaceAlias": "Connexion au réseau local* 1",
+      "IPAddress": "169.254.4.223",
+      "PrefixLength": 16
+    },
+    {
+      "InterfaceAlias": "Wi-Fi",
+      "IPAddress": "192.168.100.6",
+      "PrefixLength": 24
+    },
+    {
+      "InterfaceAlias": "Loopback Pseudo-Interface 1",
+      "IPAddress": "127.0.0.1",
+      "PrefixLength": 8
+    }
+  ],
+  "elevated": false,
+  "software": [
+    {
+      "DisplayName": "Git",
+      "DisplayVersion": "2.48.1",
+      "InstallLocation": "C:\\Program Files\\Git\\"
+    },
+    {
+      "DisplayName": "Oracle VirtualBox 7.1.10",
+      "DisplayVersion": "7.1.10",
+      "InstallLocation": ""
+    },
+    {
+      "DisplayName": "Python 3.13.2 Add to Path (64-bit)",
+      "DisplayVersion": "3.13.2150.0",
+      "InstallLocation": ""
+    },
+    {
+      "DisplayName": "Python 3.13.2 pip Bootstrap (64-bit)",
+      "DisplayVersion": "3.13.2150.0",
+      "InstallLocation": ""
+    },
+    {
+      "DisplayName": "Python 3.13.2 Executables (64-bit)",
+      "DisplayVersion": "3.13.2150.0",
+      "InstallLocation": ""
+    },
+    {
+      "DisplayName": "Python 3.13.2 Core Interpreter (64-bit)",
+      "DisplayVersion": "3.13.2150.0",
+      "InstallLocation": ""
+    },
+    {
+      "DisplayName": "Python 3.13.2 Documentation (64-bit)",
+      "DisplayVersion": "3.13.2150.0",
+      "InstallLocation": ""
+    },
+    {
+      "DisplayName": "Python 3.13.2 Development Libraries (64-bit)",
+      "DisplayVersion": "3.13.2150.0",
+      "InstallLocation": ""
+    },
+    {
+      "DisplayName": "Python 3.13.2 Standard Library (64-bit)",
+      "DisplayVersion": "3.13.2150.0",
+      "InstallLocation": ""
+    },
+    {
+      "DisplayName": "Python 3.13.2 Tcl/Tk Support (64-bit)",
+      "DisplayVersion": "3.13.2150.0",
+      "InstallLocation": ""
+    },
+    {
+      "DisplayName": "GitHub CLI",
+      "DisplayVersion": "2.96.0",
+      "InstallLocation": ""
+    },
+    {
+      "DisplayName": "Python 3.13.2 Test Suite (64-bit)",
+      "DisplayVersion": "3.13.2150.0",
+      "InstallLocation": ""
+    },
+    {
+      "DisplayName": "Wazuh Agent",
+      "DisplayVersion": "4.14.6",
+      "InstallLocation": ""
+    },
+    {
+      "DisplayName": "Python Launcher",
+      "DisplayVersion": "3.13.2150.0",
+      "InstallLocation": ""
+    }
+  ]
+}

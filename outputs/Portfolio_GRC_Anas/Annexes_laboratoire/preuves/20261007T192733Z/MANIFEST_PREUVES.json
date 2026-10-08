@@ -1,0 +1,52 @@
+[
+  {
+    "fichier": "REFERENCE_MANIFEST.json",
+    "taille": 3124,
+    "sha256": "c319b6041e2f539da7f2b530060bc71172a3b1adfbb8c30c439867d7813148ea"
+  },
+  {
+    "fichier": "T03-P01_attendus.json",
+    "taille": 1301,
+    "sha256": "9eff7739db0bc7bf739a643f6c84db55ffa577271d47b3061dfdff9ce67888a1"
+  },
+  {
+    "fichier": "T03-P02_copie.json",
+    "taille": 3855,
+    "sha256": "9f81471e691a8b7b5c724753408a0288afc04114839802f08124f814b3200efa"
+  },
+  {
+    "fichier": "T03-P03_comparaison.json",
+    "taille": 8344,
+    "sha256": "fff95ff2e5ad3c6ab872d95ed3346fa0afb47acda5c2ad1af703cc2bcfe74167"
+  },
+  {
+    "fichier": "T03-P04_chronologie.json",
+    "taille": 763,
+    "sha256": "e3230f9c1924ee1bd51d46e8aa3feb9d07334482f89c85329d99c3817067122f"
+  },
+  {
+    "fichier": "T03_copie_artificielle.zip",
+    "taille": 656,
+    "sha256": "8070450a97c21799443f873b91558d33acb95bc6f0c4f28f670c8ce7df7afd21"
+  },
+  {
+    "fichier": "T04-P01_perimetre_droits.json",
+    "taille": 6664,
+    "sha256": "f850c82fcb03ea127282bd116cddd075e434fdcb0675746bdeab41929381c8e9"
+  },
+  {
+    "fichier": "T04-P02_premier_commit.json",
+    "taille": 178,
+    "sha256": "075554291fa1e65e1b2a34254f028605029007173c6c6b76d881a669839710f9"
+  },
+  {
+    "fichier": "T04-P03_historique.json",
+    "taille": 6577,
+    "sha256": "38aadaeb0cdcf994601b91dd279827c92d83fa697339a9dc32fd8635ae9e8dea"
+  },
+  {
+    "fichier": "T04-P04_conclusion.json",
+    "taille": 236,
+    "sha256": "bf298424fee3ca842b0822993c3e9ede302dde30788a462c977fea94969c868b"
+  }
+]

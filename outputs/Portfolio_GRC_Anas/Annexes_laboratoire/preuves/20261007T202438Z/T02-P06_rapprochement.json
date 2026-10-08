@@ -1,0 +1,54 @@
+{
+  "date_consolidation_utc": "2026-10-07T20:33:19.946659+00:00",
+  "comparaisons": [
+    {
+      "champ": "compte",
+      "source": "LAB-GRC-EVT",
+      "gestionnaire": "LAB-GRC-EVT",
+      "identique": true
+    },
+    {
+      "champ": "hote",
+      "source": "DESKTOP-3SQ1K5Q",
+      "gestionnaire": "DESKTOP-3SQ1K5Q",
+      "identique": true
+    },
+    {
+      "champ": "ID",
+      "source": "4625",
+      "gestionnaire": "4625",
+      "identique": true
+    },
+    {
+      "champ": "record",
+      "source": "2204782",
+      "gestionnaire": "2204782",
+      "identique": true
+    },
+    {
+      "champ": "UTC",
+      "source": "2026-10-07T19:53:20.9715351Z",
+      "gestionnaire": "2026-10-07T19:53:20.9715351Z",
+      "identique": true
+    },
+    {
+      "champ": "statut",
+      "source": "0xc000006d",
+      "gestionnaire": "0xc000006d",
+      "identique": true
+    },
+    {
+      "champ": "sous_statut",
+      "source": "0xc000006a",
+      "gestionnaire": "0xc000006a",
+      "identique": true
+    }
+  ],
+  "alerte_meme_record": true,
+  "regle": "60122",
+  "niveau": 5,
+  "ecart_horodatage_secondes": 1798.972465,
+  "limite_ecart": "Événement produit avant disponibilité du gestionnaire ; différence des timestamps, pas une mesure de performance ou de délai habituel ; synchronisation des horloges sur tout l’intervalle non certifiée.",
+  "statut": "PARTIEL",
+  "raison": "Source, réception et alerte prouvées ; droits/configuration examinés, conservation et fonctionnement de 90 jours non démontrés."
+}

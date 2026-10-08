@@ -1,0 +1,11 @@
+Date de consolidation : 2026-10-07T19:55:40.079097+00:00
+Provenance : sorties réelles des essais du script test_keycloak.py et inspection HTTP locale.
+Premier essai : ModuleNotFoundError: No module named 'requests'.
+Correction : dépendances requests/beautifulsoup4 installées uniquement dans work/grc_laboratoire/python_deps.
+Essai HTTP : Restart login cookie not found. It may have expired; it may have been deleted or cookies are disabled in your browser.
+Observation : AUTH_SESSION_ID, KC_AUTH_SESSION_HASH et KC_RESTART portaient Secure sur HTTP local.
+Correction : TLS local avec certificat auto-signé approuvé explicitement par le client de test ; aucune suppression du drapeau Secure.
+Essais du harnais : redirection vers action obligatoire non suivie ; Incorrect padding puis Non-base32 digit found.
+Correction : suivre les redirections internes, lire la clé affichée par la procédure manuelle native Keycloak et compléter le padding Base32. Le champ caché de formulaire est préservé tel quel.
+Retests : dossiers datés conservés sous preuves, résultat final dans 20261007T193900Z.
+Limite : les sorties initiales n’étaient pas horodatées à la ligne ; leur date est celle de cette mission. Aucun secret de la page de diagnostic privée n’est reproduit.

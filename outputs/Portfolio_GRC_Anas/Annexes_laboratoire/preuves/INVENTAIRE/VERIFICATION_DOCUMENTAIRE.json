@@ -1,0 +1,1678 @@
+{
+  "date_utc": "2026-10-07T19:37:58.794372+00:00",
+  "risques": [
+    {
+      "id": "R01",
+      "projet": 1,
+      "scenario": "Vol ou partage d'un compte privilégié permettant une prise de contrôle d'A01/A04",
+      "proprietaire": "RI",
+      "inherent": [
+        4,
+        5,
+        20
+      ],
+      "actuel": [
+        4,
+        5,
+        20
+      ],
+      "cible": [
+        1,
+        5,
+        5
+      ],
+      "niveau_actuel": "Critique",
+      "niveau_cible": "Modéré",
+      "traitement": "Réduire, M01",
+      "source": "Projet_1_SSI/02_methode_registre_risques.md"
+    },
+    {
+      "id": "R02",
+      "projet": 1,
+      "scenario": "Phishing d'un collaborateur puis accès aux échanges clients A02",
+      "proprietaire": "RS",
+      "inherent": [
+        4,
+        4,
+        16
+      ],
+      "actuel": [
+        3,
+        4,
+        12
+      ],
+      "cible": [
+        2,
+        4,
+        8
+      ],
+      "niveau_actuel": "Élevé",
+      "niveau_cible": "Modéré",
+      "traitement": "Réduire, M02",
+      "source": "Projet_1_SSI/02_methode_registre_risques.md"
+    },
+    {
+      "id": "R03",
+      "projet": 1,
+      "scenario": "Chiffrement ou perte de l'application A04 avec restauration A06 inutilisable",
+      "proprietaire": "RI",
+      "inherent": [
+        4,
+        5,
+        20
+      ],
+      "actuel": [
+        4,
+        5,
+        20
+      ],
+      "cible": [
+        2,
+        4,
+        8
+      ],
+      "niveau_actuel": "Critique",
+      "niveau_cible": "Modéré",
+      "traitement": "Réduire, M03",
+      "source": "Projet_1_SSI/02_methode_registre_risques.md"
+    },
+    {
+      "id": "R04",
+      "projet": 1,
+      "scenario": "Incident persistant faute de collecte et de revue suffisantes sur A07",
+      "proprietaire": "RI",
+      "inherent": [
+        4,
+        4,
+        16
+      ],
+      "actuel": [
+        3,
+        4,
+        12
+      ],
+      "cible": [
+        2,
+        4,
+        8
+      ],
+      "niveau_actuel": "Élevé",
+      "niveau_cible": "Modéré",
+      "traitement": "Réduire, M04",
+      "source": "Projet_1_SSI/02_methode_registre_risques.md"
+    },
+    {
+      "id": "R05",
+      "projet": 1,
+      "scenario": "Exploitation d'une faiblesse applicative non traitée sur A04",
+      "proprietaire": "RD",
+      "inherent": [
+        4,
+        4,
+        16
+      ],
+      "actuel": [
+        3,
+        4,
+        12
+      ],
+      "cible": [
+        2,
+        4,
+        8
+      ],
+      "niveau_actuel": "Élevé",
+      "niveau_cible": "Modéré",
+      "traitement": "Réduire, M05",
+      "source": "Projet_1_SSI/02_methode_registre_risques.md"
+    },
+    {
+      "id": "R06",
+      "projet": 1,
+      "scenario": "Secret applicatif commité puis réutilisé pour accéder aux services A05/A04",
+      "proprietaire": "RD",
+      "inherent": [
+        4,
+        4,
+        16
+      ],
+      "actuel": [
+        4,
+        4,
+        16
+      ],
+      "cible": [
+        1,
+        4,
+        4
+      ],
+      "niveau_actuel": "Critique",
+      "niveau_cible": "Faible",
+      "traitement": "Réduire, M06",
+      "source": "Projet_1_SSI/02_methode_registre_risques.md"
+    },
+    {
+      "id": "R07",
+      "projet": 1,
+      "scenario": "Maintien d'un accès après départ et consultation des tickets A01/A04",
+      "proprietaire": "RI",
+      "inherent": [
+        3,
+        4,
+        12
+      ],
+      "actuel": [
+        3,
+        4,
+        12
+      ],
+      "cible": [
+        1,
+        4,
+        4
+      ],
+      "niveau_actuel": "Élevé",
+      "niveau_cible": "Faible",
+      "traitement": "Réduire, M07",
+      "source": "Projet_1_SSI/02_methode_registre_risques.md"
+    },
+    {
+      "id": "R08",
+      "projet": 1,
+      "scenario": "Futur accès inter-clients non autorisé dans SupportCloud A08",
+      "proprietaire": "RS",
+      "inherent": [
+        4,
+        4,
+        16
+      ],
+      "actuel": [
+        4,
+        4,
+        16
+      ],
+      "cible": [
+        2,
+        4,
+        8
+      ],
+      "niveau_actuel": "Critique",
+      "niveau_cible": "Modéré",
+      "traitement": "Éviter l'exposition en production puis réduire, M08",
+      "source": "Projet_1_SSI/02_methode_registre_risques.md"
+    },
+    {
+      "id": "R09",
+      "projet": 1,
+      "scenario": "Export A10 conservé sans justification et partagé trop largement",
+      "proprietaire": "RS",
+      "inherent": [
+        3,
+        3,
+        9
+      ],
+      "actuel": [
+        3,
+        3,
+        9
+      ],
+      "cible": [
+        2,
+        3,
+        6
+      ],
+      "niveau_actuel": "Modéré",
+      "niveau_cible": "Modéré",
+      "traitement": "Réduire, M09",
+      "source": "Projet_1_SSI/02_methode_registre_risques.md"
+    },
+    {
+      "id": "R10",
+      "projet": 1,
+      "scenario": "Absence d'un administrateur et documentation A09 insuffisante pour reprendre le service",
+      "proprietaire": "RI",
+      "inherent": [
+        3,
+        3,
+        9
+      ],
+      "actuel": [
+        3,
+        3,
+        9
+      ],
+      "cible": [
+        2,
+        3,
+        6
+      ],
+      "niveau_actuel": "Modéré",
+      "niveau_cible": "Modéré",
+      "traitement": "Réduire, M10",
+      "source": "Projet_1_SSI/02_methode_registre_risques.md"
+    },
+    {
+      "id": "R11",
+      "projet": 1,
+      "scenario": "Perte d'un portable A03 non chiffré exposant des informations clients",
+      "proprietaire": "RI",
+      "inherent": [
+        4,
+        4,
+        16
+      ],
+      "actuel": [
+        4,
+        4,
+        16
+      ],
+      "cible": [
+        1,
+        4,
+        4
+      ],
+      "niveau_actuel": "Critique",
+      "niveau_cible": "Faible",
+      "traitement": "Réduire, M11",
+      "source": "Projet_1_SSI/02_methode_registre_risques.md"
+    },
+    {
+      "id": "R12",
+      "projet": 1,
+      "scenario": "Modification non validée d'A04 altérant les tickets sans retour arrière préparé",
+      "proprietaire": "RD",
+      "inherent": [
+        3,
+        4,
+        12
+      ],
+      "actuel": [
+        3,
+        4,
+        12
+      ],
+      "cible": [
+        2,
+        4,
+        8
+      ],
+      "niveau_actuel": "Élevé",
+      "niveau_cible": "Modéré",
+      "traitement": "Réduire, M12",
+      "source": "Projet_1_SSI/02_methode_registre_risques.md"
+    },
+    {
+      "id": "S01",
+      "projet": 2,
+      "scenario": "Compromission d'un administrateur du tenant sans MFA imposé ; consultation ou modification de tickets et données A08",
+      "proprietaire": "RS",
+      "inherent": [
+        4,
+        4,
+        16
+      ],
+      "actuel": [
+        3,
+        4,
+        12
+      ],
+      "cible": [
+        1,
+        4,
+        4
+      ],
+      "niveau_actuel": "Élevé",
+      "niveau_cible": "Faible",
+      "traitement": "V03, F01, VM01",
+      "source": "Projet_2_TPRM/04_constats_registre_risques.md"
+    },
+    {
+      "id": "S02",
+      "projet": 2,
+      "scenario": "Compromission ou usage abusif du compte support partagé ; accès aux données A08 et attribution des actions difficile",
+      "proprietaire": "RS",
+      "inherent": [
+        4,
+        4,
+        16
+      ],
+      "actuel": [
+        3,
+        4,
+        12
+      ],
+      "cible": [
+        1,
+        4,
+        4
+      ],
+      "niveau_actuel": "Élevé",
+      "niveau_cible": "Faible",
+      "traitement": "V03, F02, VM02",
+      "source": "Projet_2_TPRM/04_constats_registre_risques.md"
+    },
+    {
+      "id": "S03",
+      "projet": 2,
+      "scenario": "Incident détecté tardivement et traces utiles expirées ou incomplètes ; investigation et confinement du tenant A08 retardés",
+      "proprietaire": "RS",
+      "inherent": [
+        3,
+        4,
+        12
+      ],
+      "actuel": [
+        3,
+        4,
+        12
+      ],
+      "cible": [
+        2,
+        4,
+        8
+      ],
+      "niveau_actuel": "Élevé",
+      "niveau_cible": "Modéré",
+      "traitement": "V04, F03, VM03",
+      "source": "Projet_2_TPRM/04_constats_registre_risques.md"
+    },
+    {
+      "id": "S04",
+      "projet": 2,
+      "scenario": "Incident destructif ou altération du service suivis d'une reprise incomplète ; tickets A08 indisponibles ou données non récupérées",
+      "proprietaire": "RS",
+      "inherent": [
+        3,
+        4,
+        12
+      ],
+      "actuel": [
+        3,
+        4,
+        12
+      ],
+      "cible": [
+        2,
+        4,
+        8
+      ],
+      "niveau_actuel": "Élevé",
+      "niveau_cible": "Modéré",
+      "traitement": "V05/V08, F04, VM04",
+      "source": "Projet_2_TPRM/04_constats_registre_risques.md"
+    },
+    {
+      "id": "S05",
+      "projet": 2,
+      "scenario": "Accès aux tickets A08 par un tiers insuffisamment identifié ou encadré ; divulgation non autorisée et difficulté de maîtrise du traitement",
+      "proprietaire": "RS",
+      "inherent": [
+        3,
+        4,
+        12
+      ],
+      "actuel": [
+        3,
+        4,
+        12
+      ],
+      "cible": [
+        2,
+        4,
+        8
+      ],
+      "niveau_actuel": "Élevé",
+      "niveau_cible": "Modéré",
+      "traitement": "V01/V07, F05, VM05",
+      "source": "Projet_2_TPRM/04_constats_registre_risques.md"
+    },
+    {
+      "id": "S06",
+      "projet": 2,
+      "scenario": "Perte ou persistance non maîtrisée de données A08 lors d'une sortie ; export incomplet, accès trop court ou copies encore accessibles",
+      "proprietaire": "RS",
+      "inherent": [
+        3,
+        4,
+        12
+      ],
+      "actuel": [
+        3,
+        4,
+        12
+      ],
+      "cible": [
+        2,
+        4,
+        8
+      ],
+      "niveau_actuel": "Élevé",
+      "niveau_cible": "Modéré",
+      "traitement": "V08, F06, VM06",
+      "source": "Projet_2_TPRM/04_constats_registre_risques.md"
+    },
+    {
+      "id": "S07",
+      "projet": 2,
+      "scenario": "Incident confirmé affectant le client mais notification et coordination tardives ; exposition prolongée et réponse client retardée",
+      "proprietaire": "RS",
+      "inherent": [
+        3,
+        4,
+        12
+      ],
+      "actuel": [
+        3,
+        4,
+        12
+      ],
+      "cible": [
+        2,
+        4,
+        8
+      ],
+      "niveau_actuel": "Élevé",
+      "niveau_cible": "Modéré",
+      "traitement": "V02/V08, F07, VM07",
+      "source": "Projet_2_TPRM/04_constats_registre_risques.md"
+    },
+    {
+      "id": "S08",
+      "projet": 2,
+      "scenario": "Consultation inter-clients non autorisée de tickets A08 via le défaut applicatif ouvert ; divulgation de données confidentielles",
+      "proprietaire": "RS",
+      "inherent": [
+        4,
+        4,
+        16
+      ],
+      "actuel": [
+        4,
+        4,
+        16
+      ],
+      "cible": [
+        2,
+        4,
+        8
+      ],
+      "niveau_actuel": "Critique",
+      "niveau_cible": "Modéré",
+      "traitement": "V06, F08, VM08 ; miroir de R08",
+      "source": "Projet_2_TPRM/04_constats_registre_risques.md"
+    }
+  ],
+  "actions1": [
+    [
+      "M01",
+      "R01",
+      "Retirer l'accès partagé, limiter les droits, imposer le MFA privilégié et contrôler la récupération",
+      "RI",
+      "J+2, 9 octobre",
+      "Export de tous les comptes privilégiés, exceptions approuvées, essais positifs/négatifs et retrait des sessions"
+    ],
+    [
+      "M02",
+      "R02",
+      "Compléter protection des accès et de la messagerie, sensibilisation adaptée au phishing",
+      "RI et RS",
+      "J+30, 6 novembre",
+      "Configurations et exercice documentés, accès revus, canal d'alerte connu"
+    ],
+    [
+      "M03",
+      "R03",
+      "Protéger les sauvegardes, séparer les accès et réaliser une restauration de contrôle",
+      "RI",
+      "Mesure conservatoire J+2 ; preuve complète J+15, 22 octobre",
+      "Test isolé, intégrité, RTO/RPO validés et procédure répétable"
+    ],
+    [
+      "M04",
+      "R04",
+      "Étendre les sources prioritaires, définir alerte, revue, conservation et protection des journaux",
+      "RI",
+      "J+30, 6 novembre",
+      "Inventaire des sources, réception et alerte testées, revue et contrôle des accès"
+    ],
+    [
+      "M05",
+      "R05",
+      "Réduire l'exposition de la fonction vulnérable, corriger et faire valider le correctif",
+      "RD",
+      "Restriction J+2 ; correction J+10, 17 octobre",
+      "Preuve de correction et retest autorisé, sans vulnérabilité ouverte équivalente"
+    ],
+    [
+      "M06",
+      "R06",
+      "Invalider le secret exposé dans le scénario, effectuer la rotation et contrôler le dépôt et son historique",
+      "RD",
+      "J+1, 8 octobre",
+      "Ancien secret inutilisable, nouveau secret stocké hors dépôt, revue documentée des chemins concernés"
+    ],
+    [
+      "M07",
+      "R07",
+      "Désactiver l'accès de départ et formaliser le retrait de comptes, sessions et jetons",
+      "RI et RH",
+      "Cas ouvert J+1 ; processus J+15",
+      "Preuve de retrait de l'accès et fiche de sortie complète"
+    ],
+    [
+      "M08",
+      "R08",
+      "Maintenir le SaaS hors production et exiger la clôture du défaut inter-clients et des blocages fournisseur",
+      "RS",
+      "Avant toute donnée réelle",
+      "Décision fondée sur preuves et critères du projet 2, sans acceptation par simple courriel commercial"
+    ],
+    [
+      "M09",
+      "R09",
+      "Limiter exports et accès, fixer une durée justifiée et une suppression contrôlée",
+      "RS",
+      "J+30, 6 novembre",
+      "Inventaire des exports, habilitations et exemple de suppression"
+    ],
+    [
+      "M10",
+      "R10",
+      "Désigner un suppléant et exercer une procédure de reprise documentaire",
+      "RI",
+      "J+60, 6 décembre",
+      "Exercice effectué par le suppléant et limites relevées"
+    ],
+    [
+      "M11",
+      "R11",
+      "Chiffrer le poste concerné, conserver la récupération en lieu contrôlé et examiner les autres postes",
+      "RI",
+      "Poste ouvert J+2 ; inventaire J+15",
+      "État du volume et récupération contrôlée, couverture documentée"
+    ],
+    [
+      "M12",
+      "R12",
+      "Mettre en place approbation, vérification et retour arrière pour les changements sensibles",
+      "RD",
+      "J+30, 6 novembre",
+      "Dossier d'un changement complet, approbation indépendante et vérification du retour arrière"
+    ]
+  ],
+  "actions2": [
+    [
+      "VM01",
+      "S01/F01",
+      "Comptes administrateurs individuels, MFA imposé pour la formule retenue, récupération et sessions maîtrisées",
+      "RI / responsable IAM fournisseur",
+      "J+15, 22 octobre ; avant production",
+      "Matrice complète des administrateurs, règles effectives et essais d'authentification positive/négative sur tenant d'essai. Une fiche Enterprise seule est rejetée",
+      "Ouverte"
+    ],
+    [
+      "VM02",
+      "S02/F02",
+      "Retirer SUPPORT-PARTAGE, encadrer accès support temporaires, revue et journalisation nominative",
+      "RSSI / responsable opérations fournisseur",
+      "J+15, 22 octobre ; avant production",
+      "Liste de population privilégiée, retrait du compte partagé, MFA et revue avec décideur. RSSI examine les exceptions et les accès d'urgence",
+      "Ouverte"
+    ],
+    [
+      "VM03",
+      "S03/F03",
+      "Couvrir les événements utiles sur 90 jours, protéger les traces et limiter les droits ; préciser la solution Standard ou une autre formule",
+      "RI / responsable service et logs fournisseur",
+      "J+30, 6 novembre ; avant production",
+      "Échantillon représentatif, conservation configurée, accès/protection et récupération d'événements vérifiés. L'export manuel partiel ne clôture pas l'action",
+      "Ouverte"
+    ],
+    [
+      "VM04",
+      "S04/F04",
+      "Démontrer reprise du service complet et point de reprise, puis une voie de récupération client exploitable",
+      "RI et RS / responsable continuité fournisseur",
+      "J+30, 6 novembre ; avant production",
+      "Rapport avec début/fin, composants, données restaurées, contrôles d'intégrité, dépendances, RTO/RPO observés et limites. RS confirme les objectifs métier",
+      "Ouverte"
+    ],
+    [
+      "VM05",
+      "S05/F05",
+      "Compléter tiers/localisations/accès, responsabilités, exigences de sécurité et modalités de changement",
+      "RJ et RSSI / responsable données et contrats fournisseur",
+      "J+15, 22 octobre ; avant production",
+      "Cartographie et liste complètes, restrictions d'accès, contrat pertinent et revue compétente documentée. Aucun avis juridique favorable n'est présumé",
+      "Ouverte"
+    ],
+    [
+      "VM06",
+      "S06/F06",
+      "Négocier fenêtre de récupération, export complet, restitution, suppression et exceptions de sauvegarde",
+      "RS et RJ / responsable service fournisseur",
+      "J+30, 6 novembre ; avant production",
+      "Export de tickets ET pièces testé, réutilisation démontrée, clause de fenêtre suffisante et délais distincts de suppression. Assurance adaptée de fin de traitement prévue",
+      "Ouverte"
+    ],
+    [
+      "VM07",
+      "S07/F07",
+      "Convenir notification initiale sous 24 heures après confirmation d'un incident affectant le client ; contacts, escalade et exercice commun",
+      "RSSI et RJ / responsable incidents fournisseur",
+      "Clause J+15 ; exercice J+30, 6 novembre ; avant production",
+      "Clause acceptée, contacts et scénario de table avec chronologie, décisions et écarts. Pas de notification réelle ni d'attaque dans l'exercice",
+      "Ouverte"
+    ],
+    [
+      "VM08",
+      "S08/F08",
+      "Corriger le défaut d'autorisation inter-clients et faire retester le périmètre affecté",
+      "RSSI / responsable développement et test fournisseur",
+      "Plan J+2, 9 octobre ; correction et retest visés J+10, 17 octobre ; avant production",
+      "Preuve du correctif, version, tests de refus entre tenants, vérification des voies concernées et limites du retest. Aucun test intrusif client non autorisé",
+      "Ouverte"
+    ]
+  ],
+  "questionnaire": [
+    [
+      "Q01",
+      "Quel service et quelle formule sont couverts ? Fiche et périmètre contractuel",
+      "Service de tickets, formule Standard ; V01",
+      "Documenté pour le cadrage. Ne pas retenir les fonctions Enterprise"
+    ],
+    [
+      "Q02",
+      "Quelles données sont traitées, et quelles limites de contenu ? Cartographie et règles",
+      "Noms, courriels, textes et pièces ; pas de filtrage garantissant l'absence de secrets ; V01",
+      "Partiel : le client doit maîtriser ce qu'il envoie"
+    ],
+    [
+      "Q03",
+      "Où sont hébergement, sauvegardes et accès support ? Cartographie complète",
+      "« Europe uniquement » ; V01 mentionne Irlande/France et support Maroc/Portugal",
+      "Partiel : distinguer stockage et accès distant ; partenaire externe encore inconnu"
+    ],
+    [
+      "Q04",
+      "Qui sont les sous-traitants et comment les changements sont-ils notifiés ? Liste et procédure",
+      "Liste V07, partenaire support incomplet ; délai contractuel imprécis",
+      "Non démontré pour la liste complète et les modalités de changement"
+    ],
+    [
+      "Q05",
+      "Quels rôles client limitent les accès ? Matrice de rôles et test de refus",
+      "Rôles lecteur/administrateur décrits ; V03",
+      "Conception documentée ; fonctionnement sur un tenant à vérifier"
+    ],
+    [
+      "Q06",
+      "Le MFA peut-il être imposé aux administrateurs client dans la formule achetée ? Paramétrage et test",
+      "MFA disponible mais facultatif en Standard ; V03",
+      "Écart au besoin du cas : activation possible ne démontre pas obligation"
+    ],
+    [
+      "Q07",
+      "Tous les accès privilégiés fournisseur sont-ils nominatifs et protégés ? Population et exceptions",
+      "« Tous protégés » ; V03 décrit SUPPORT-PARTAGE sans MFA imposé",
+      "Écart confirmé dans le dossier simulé"
+    ],
+    [
+      "Q08",
+      "Comment arrivées, départs et revues de droits sont-ils tracés ? Échantillon et compte rendu",
+      "Revue trimestrielle annoncée ; compte rendu non fourni ; V03",
+      "Non démontré. Ne pas conclure que la revue n'existe pas"
+    ],
+    [
+      "Q09",
+      "Comment les données sont-elles chiffrées et les clés gérées ? Architecture et configuration",
+      "TLS et chiffrement stocké décrits ; V02",
+      "Documenté pour la conception ; configuration et opérations non démontrées"
+    ],
+    [
+      "Q10",
+      "Quels journaux sont disponibles et pendant combien de temps ? Échantillon et politique",
+      "Trente jours en Standard ; export partiel annoncé ; V04",
+      "Écart au besoin de 90 jours, solution compensatoire non validée"
+    ],
+    [
+      "Q11",
+      "Qui peut modifier les logs et comment sont-ils protégés ? Droits et protection",
+      "Aucun relevé précis fourni ; V04",
+      "Non démontré, information complémentaire nécessaire"
+    ],
+    [
+      "Q12",
+      "Les vulnérabilités importantes sont-elles corrigées et retestées ? Registre et retest",
+      "Correctif inter-clients annoncé ; constat ouvert ; V06",
+      "Écart confirmé, blocage de production"
+    ],
+    [
+      "Q13",
+      "Quels tests couvrent le service acheté ? Rapport daté, périmètre et limites",
+      "Résumé portail/API du 12 septembre ; intégrations exclues ; V06",
+      "Partiel : rapport utile, pas assurance exhaustive ni preuve de retest"
+    ],
+    [
+      "Q14",
+      "Quel RTO/RPO est démontré pour le service complet ? Rapport de restauration",
+      "« Huit heures démontrées » ; V05 ne couvre que des fichiers restaurés en six heures",
+      "Non démontré pour le service complet et le RPO"
+    ],
+    [
+      "Q15",
+      "Peut-on récupérer toutes les données à la sortie ? Export de test et fenêtre contractuelle",
+      "CSV annoncé, pièces non démontrées, accès 48 heures ; V08",
+      "Partiel, avec écart à la fenêtre proposée de trente jours"
+    ],
+    [
+      "Q16",
+      "Quels délais et preuves de suppression couvrent actif et sauvegardes ? Engagement et attestation",
+      "Trente jours actif, 90 jours sauvegardes, exceptions non détaillées ; V08",
+      "Partiel : engagements et preuve de fin de traitement à préciser"
+    ],
+    [
+      "Q17",
+      "Quelle certification ou autre assurance couvre ce service aujourd'hui ? Certificat, portée, dates",
+      "Allégation commerciale et fiche ancienne hors portée démontrée ; V09",
+      "Certification du service non démontrée ; ne pas la déclarer inexistante"
+    ],
+    [
+      "Q18",
+      "Quel délai de notification client est engagé ? Politique et clause",
+      "72 heures après confirmation ; contrat renvoie à la politique ; V02/V08",
+      "Écart au besoin contractuel de 24 heures ; ce besoin n'est pas présenté comme légal"
+    ],
+    [
+      "Q19",
+      "Le contrat fixe-t-il responsabilités, contrôle et modifications ? Projet complet et validation",
+      "Projet non signé, modalités partielles ; V08",
+      "Partiel ; examen et négociation nécessaires"
+    ],
+    [
+      "Q20",
+      "Comment client et fournisseur coordonnent-ils incident et reprise ? Contacts et exercice",
+      "Plan fournisseur annoncé, aucun exercice client fourni ; V02",
+      "Coordination opérationnelle non démontrée"
+    ]
+  ],
+  "qmap": {
+    "Q01": [
+      "V01",
+      "cadrage"
+    ],
+    "Q02": [
+      "V01",
+      "usage et minimisation"
+    ],
+    "Q03": [
+      "V01,V07",
+      "F05/S05/VM05/G5"
+    ],
+    "Q04": [
+      "V07",
+      "F05/S05/VM05/G5"
+    ],
+    "Q05": [
+      "V03",
+      "F01/S01/VM01/G2"
+    ],
+    "Q06": [
+      "V03",
+      "F01/S01/VM01/G2"
+    ],
+    "Q07": [
+      "V03",
+      "F02/S02/VM02/G2"
+    ],
+    "Q08": [
+      "V03",
+      "F02/S02/VM02/G2"
+    ],
+    "Q09": [
+      "V02",
+      "assurance de chiffrement transversale"
+    ],
+    "Q10": [
+      "V04",
+      "F03/S03/VM03/G4"
+    ],
+    "Q11": [
+      "V04",
+      "F03/S03/VM03/G4"
+    ],
+    "Q12": [
+      "V06",
+      "F08/S08/VM08/G1"
+    ],
+    "Q13": [
+      "V06",
+      "F08/S08/VM08/G1"
+    ],
+    "Q14": [
+      "V05,V08",
+      "F04/S04/VM04/G3"
+    ],
+    "Q15": [
+      "V08",
+      "F04/F06/S04/S06/VM04/VM06/G3/G6"
+    ],
+    "Q16": [
+      "V08",
+      "F06/S06/VM06/G6"
+    ],
+    "Q17": [
+      "V09",
+      "assurance ISO transversale non demontree"
+    ],
+    "Q18": [
+      "V02,V08",
+      "F07/S07/VM07/G4"
+    ],
+    "Q19": [
+      "V08",
+      "cadre contractuel transversal G4/G5/G6"
+    ],
+    "Q20": [
+      "V02",
+      "F07/S07/VM07/G4"
+    ]
+  },
+  "conditions": {
+    "VM01": "G2",
+    "VM02": "G2",
+    "VM03": "G4",
+    "VM04": "G3",
+    "VM05": "G5",
+    "VM06": "G6",
+    "VM07": "G4",
+    "VM08": "G1"
+  },
+  "populations": {
+    "1": {
+      "actuel": {
+        "Critique": 5,
+        "Élevé": 5,
+        "Modéré": 2
+      },
+      "cible": {
+        "Modéré": 9,
+        "Faible": 3
+      }
+    },
+    "2": {
+      "actuel": {
+        "Élevé": 7,
+        "Critique": 1
+      },
+      "cible": {
+        "Faible": 2,
+        "Modéré": 6
+      }
+    }
+  },
+  "controles": [
+    {
+      "id": "R01",
+      "controle": "inherent V*I",
+      "attendu": 20,
+      "observe": 20,
+      "valide": true
+    },
+    {
+      "id": "R01",
+      "controle": "actuel V*I",
+      "attendu": 20,
+      "observe": 20,
+      "valide": true
+    },
+    {
+      "id": "R01",
+      "controle": "cible V*I",
+      "attendu": 5,
+      "observe": 5,
+      "valide": true
+    },
+    {
+      "id": "R01",
+      "controle": "niveau actuel",
+      "attendu": "Critique",
+      "observe": "Critique",
+      "valide": true
+    },
+    {
+      "id": "R02",
+      "controle": "inherent V*I",
+      "attendu": 16,
+      "observe": 16,
+      "valide": true
+    },
+    {
+      "id": "R02",
+      "controle": "actuel V*I",
+      "attendu": 12,
+      "observe": 12,
+      "valide": true
+    },
+    {
+      "id": "R02",
+      "controle": "cible V*I",
+      "attendu": 8,
+      "observe": 8,
+      "valide": true
+    },
+    {
+      "id": "R02",
+      "controle": "niveau actuel",
+      "attendu": "Élevé",
+      "observe": "Élevé",
+      "valide": true
+    },
+    {
+      "id": "R03",
+      "controle": "inherent V*I",
+      "attendu": 20,
+      "observe": 20,
+      "valide": true
+    },
+    {
+      "id": "R03",
+      "controle": "actuel V*I",
+      "attendu": 20,
+      "observe": 20,
+      "valide": true
+    },
+    {
+      "id": "R03",
+      "controle": "cible V*I",
+      "attendu": 8,
+      "observe": 8,
+      "valide": true
+    },
+    {
+      "id": "R03",
+      "controle": "niveau actuel",
+      "attendu": "Critique",
+      "observe": "Critique",
+      "valide": true
+    },
+    {
+      "id": "R04",
+      "controle": "inherent V*I",
+      "attendu": 16,
+      "observe": 16,
+      "valide": true
+    },
+    {
+      "id": "R04",
+      "controle": "actuel V*I",
+      "attendu": 12,
+      "observe": 12,
+      "valide": true
+    },
+    {
+      "id": "R04",
+      "controle": "cible V*I",
+      "attendu": 8,
+      "observe": 8,
+      "valide": true
+    },
+    {
+      "id": "R04",
+      "controle": "niveau actuel",
+      "attendu": "Élevé",
+      "observe": "Élevé",
+      "valide": true
+    },
+    {
+      "id": "R05",
+      "controle": "inherent V*I",
+      "attendu": 16,
+      "observe": 16,
+      "valide": true
+    },
+    {
+      "id": "R05",
+      "controle": "actuel V*I",
+      "attendu": 12,
+      "observe": 12,
+      "valide": true
+    },
+    {
+      "id": "R05",
+      "controle": "cible V*I",
+      "attendu": 8,
+      "observe": 8,
+      "valide": true
+    },
+    {
+      "id": "R05",
+      "controle": "niveau actuel",
+      "attendu": "Élevé",
+      "observe": "Élevé",
+      "valide": true
+    },
+    {
+      "id": "R06",
+      "controle": "inherent V*I",
+      "attendu": 16,
+      "observe": 16,
+      "valide": true
+    },
+    {
+      "id": "R06",
+      "controle": "actuel V*I",
+      "attendu": 16,
+      "observe": 16,
+      "valide": true
+    },
+    {
+      "id": "R06",
+      "controle": "cible V*I",
+      "attendu": 4,
+      "observe": 4,
+      "valide": true
+    },
+    {
+      "id": "R06",
+      "controle": "niveau actuel",
+      "attendu": "Critique",
+      "observe": "Critique",
+      "valide": true
+    },
+    {
+      "id": "R07",
+      "controle": "inherent V*I",
+      "attendu": 12,
+      "observe": 12,
+      "valide": true
+    },
+    {
+      "id": "R07",
+      "controle": "actuel V*I",
+      "attendu": 12,
+      "observe": 12,
+      "valide": true
+    },
+    {
+      "id": "R07",
+      "controle": "cible V*I",
+      "attendu": 4,
+      "observe": 4,
+      "valide": true
+    },
+    {
+      "id": "R07",
+      "controle": "niveau actuel",
+      "attendu": "Élevé",
+      "observe": "Élevé",
+      "valide": true
+    },
+    {
+      "id": "R08",
+      "controle": "inherent V*I",
+      "attendu": 16,
+      "observe": 16,
+      "valide": true
+    },
+    {
+      "id": "R08",
+      "controle": "actuel V*I",
+      "attendu": 16,
+      "observe": 16,
+      "valide": true
+    },
+    {
+      "id": "R08",
+      "controle": "cible V*I",
+      "attendu": 8,
+      "observe": 8,
+      "valide": true
+    },
+    {
+      "id": "R08",
+      "controle": "niveau actuel",
+      "attendu": "Critique",
+      "observe": "Critique, prospectif",
+      "valide": true
+    },
+    {
+      "id": "R09",
+      "controle": "inherent V*I",
+      "attendu": 9,
+      "observe": 9,
+      "valide": true
+    },
+    {
+      "id": "R09",
+      "controle": "actuel V*I",
+      "attendu": 9,
+      "observe": 9,
+      "valide": true
+    },
+    {
+      "id": "R09",
+      "controle": "cible V*I",
+      "attendu": 6,
+      "observe": 6,
+      "valide": true
+    },
+    {
+      "id": "R09",
+      "controle": "niveau actuel",
+      "attendu": "Modéré",
+      "observe": "Modéré",
+      "valide": true
+    },
+    {
+      "id": "R10",
+      "controle": "inherent V*I",
+      "attendu": 9,
+      "observe": 9,
+      "valide": true
+    },
+    {
+      "id": "R10",
+      "controle": "actuel V*I",
+      "attendu": 9,
+      "observe": 9,
+      "valide": true
+    },
+    {
+      "id": "R10",
+      "controle": "cible V*I",
+      "attendu": 6,
+      "observe": 6,
+      "valide": true
+    },
+    {
+      "id": "R10",
+      "controle": "niveau actuel",
+      "attendu": "Modéré",
+      "observe": "Modéré",
+      "valide": true
+    },
+    {
+      "id": "R11",
+      "controle": "inherent V*I",
+      "attendu": 16,
+      "observe": 16,
+      "valide": true
+    },
+    {
+      "id": "R11",
+      "controle": "actuel V*I",
+      "attendu": 16,
+      "observe": 16,
+      "valide": true
+    },
+    {
+      "id": "R11",
+      "controle": "cible V*I",
+      "attendu": 4,
+      "observe": 4,
+      "valide": true
+    },
+    {
+      "id": "R11",
+      "controle": "niveau actuel",
+      "attendu": "Critique",
+      "observe": "Critique",
+      "valide": true
+    },
+    {
+      "id": "R12",
+      "controle": "inherent V*I",
+      "attendu": 12,
+      "observe": 12,
+      "valide": true
+    },
+    {
+      "id": "R12",
+      "controle": "actuel V*I",
+      "attendu": 12,
+      "observe": 12,
+      "valide": true
+    },
+    {
+      "id": "R12",
+      "controle": "cible V*I",
+      "attendu": 8,
+      "observe": 8,
+      "valide": true
+    },
+    {
+      "id": "R12",
+      "controle": "niveau actuel",
+      "attendu": "Élevé",
+      "observe": "Élevé",
+      "valide": true
+    },
+    {
+      "id": "S01",
+      "controle": "inherent V*I",
+      "attendu": 16,
+      "observe": 16,
+      "valide": true
+    },
+    {
+      "id": "S01",
+      "controle": "actuel V*I",
+      "attendu": 12,
+      "observe": 12,
+      "valide": true
+    },
+    {
+      "id": "S01",
+      "controle": "cible V*I",
+      "attendu": 4,
+      "observe": 4,
+      "valide": true
+    },
+    {
+      "id": "S01",
+      "controle": "niveau actuel",
+      "attendu": "Élevé",
+      "observe": "Élevé",
+      "valide": true
+    },
+    {
+      "id": "S02",
+      "controle": "inherent V*I",
+      "attendu": 16,
+      "observe": 16,
+      "valide": true
+    },
+    {
+      "id": "S02",
+      "controle": "actuel V*I",
+      "attendu": 12,
+      "observe": 12,
+      "valide": true
+    },
+    {
+      "id": "S02",
+      "controle": "cible V*I",
+      "attendu": 4,
+      "observe": 4,
+      "valide": true
+    },
+    {
+      "id": "S02",
+      "controle": "niveau actuel",
+      "attendu": "Élevé",
+      "observe": "Élevé",
+      "valide": true
+    },
+    {
+      "id": "S03",
+      "controle": "inherent V*I",
+      "attendu": 12,
+      "observe": 12,
+      "valide": true
+    },
+    {
+      "id": "S03",
+      "controle": "actuel V*I",
+      "attendu": 12,
+      "observe": 12,
+      "valide": true
+    },
+    {
+      "id": "S03",
+      "controle": "cible V*I",
+      "attendu": 8,
+      "observe": 8,
+      "valide": true
+    },
+    {
+      "id": "S03",
+      "controle": "niveau actuel",
+      "attendu": "Élevé",
+      "observe": "Élevé",
+      "valide": true
+    },
+    {
+      "id": "S04",
+      "controle": "inherent V*I",
+      "attendu": 12,
+      "observe": 12,
+      "valide": true
+    },
+    {
+      "id": "S04",
+      "controle": "actuel V*I",
+      "attendu": 12,
+      "observe": 12,
+      "valide": true
+    },
+    {
+      "id": "S04",
+      "controle": "cible V*I",
+      "attendu": 8,
+      "observe": 8,
+      "valide": true
+    },
+    {
+      "id": "S04",
+      "controle": "niveau actuel",
+      "attendu": "Élevé",
+      "observe": "Élevé",
+      "valide": true
+    },
+    {
+      "id": "S05",
+      "controle": "inherent V*I",
+      "attendu": 12,
+      "observe": 12,
+      "valide": true
+    },
+    {
+      "id": "S05",
+      "controle": "actuel V*I",
+      "attendu": 12,
+      "observe": 12,
+      "valide": true
+    },
+    {
+      "id": "S05",
+      "controle": "cible V*I",
+      "attendu": 8,
+      "observe": 8,
+      "valide": true
+    },
+    {
+      "id": "S05",
+      "controle": "niveau actuel",
+      "attendu": "Élevé",
+      "observe": "Élevé",
+      "valide": true
+    },
+    {
+      "id": "S06",
+      "controle": "inherent V*I",
+      "attendu": 12,
+      "observe": 12,
+      "valide": true
+    },
+    {
+      "id": "S06",
+      "controle": "actuel V*I",
+      "attendu": 12,
+      "observe": 12,
+      "valide": true
+    },
+    {
+      "id": "S06",
+      "controle": "cible V*I",
+      "attendu": 8,
+      "observe": 8,
+      "valide": true
+    },
+    {
+      "id": "S06",
+      "controle": "niveau actuel",
+      "attendu": "Élevé",
+      "observe": "Élevé",
+      "valide": true
+    },
+    {
+      "id": "S07",
+      "controle": "inherent V*I",
+      "attendu": 12,
+      "observe": 12,
+      "valide": true
+    },
+    {
+      "id": "S07",
+      "controle": "actuel V*I",
+      "attendu": 12,
+      "observe": 12,
+      "valide": true
+    },
+    {
+      "id": "S07",
+      "controle": "cible V*I",
+      "attendu": 8,
+      "observe": 8,
+      "valide": true
+    },
+    {
+      "id": "S07",
+      "controle": "niveau actuel",
+      "attendu": "Élevé",
+      "observe": "Élevé",
+      "valide": true
+    },
+    {
+      "id": "S08",
+      "controle": "inherent V*I",
+      "attendu": 16,
+      "observe": 16,
+      "valide": true
+    },
+    {
+      "id": "S08",
+      "controle": "actuel V*I",
+      "attendu": 16,
+      "observe": 16,
+      "valide": true
+    },
+    {
+      "id": "S08",
+      "controle": "cible V*I",
+      "attendu": 8,
+      "observe": 8,
+      "valide": true
+    },
+    {
+      "id": "S08",
+      "controle": "niveau actuel",
+      "attendu": "Critique",
+      "observe": "Critique",
+      "valide": true
+    },
+    {
+      "id": "Q01",
+      "controle": "recoupement de la piece primaire citee",
+      "attendu": "V01",
+      "observe": "Service de tickets, formule Standard ; V01",
+      "valide": true
+    },
+    {
+      "id": "Q02",
+      "controle": "recoupement de la piece primaire citee",
+      "attendu": "V01",
+      "observe": "Noms, courriels, textes et pièces ; pas de filtrage garantissant l'absence de secrets ; V01",
+      "valide": true
+    },
+    {
+      "id": "Q03",
+      "controle": "recoupement de la piece primaire citee",
+      "attendu": "V01,V07",
+      "observe": "« Europe uniquement » ; V01 mentionne Irlande/France et support Maroc/Portugal",
+      "valide": true
+    },
+    {
+      "id": "Q04",
+      "controle": "recoupement de la piece primaire citee",
+      "attendu": "V07",
+      "observe": "Liste V07, partenaire support incomplet ; délai contractuel imprécis",
+      "valide": true
+    },
+    {
+      "id": "Q05",
+      "controle": "recoupement de la piece primaire citee",
+      "attendu": "V03",
+      "observe": "Rôles lecteur/administrateur décrits ; V03",
+      "valide": true
+    },
+    {
+      "id": "Q06",
+      "controle": "recoupement de la piece primaire citee",
+      "attendu": "V03",
+      "observe": "MFA disponible mais facultatif en Standard ; V03",
+      "valide": true
+    },
+    {
+      "id": "Q07",
+      "controle": "recoupement de la piece primaire citee",
+      "attendu": "V03",
+      "observe": "« Tous protégés » ; V03 décrit SUPPORT-PARTAGE sans MFA imposé",
+      "valide": true
+    },
+    {
+      "id": "Q08",
+      "controle": "recoupement de la piece primaire citee",
+      "attendu": "V03",
+      "observe": "Revue trimestrielle annoncée ; compte rendu non fourni ; V03",
+      "valide": true
+    },
+    {
+      "id": "Q09",
+      "controle": "recoupement de la piece primaire citee",
+      "attendu": "V02",
+      "observe": "TLS et chiffrement stocké décrits ; V02",
+      "valide": true
+    },
+    {
+      "id": "Q10",
+      "controle": "recoupement de la piece primaire citee",
+      "attendu": "V04",
+      "observe": "Trente jours en Standard ; export partiel annoncé ; V04",
+      "valide": true
+    },
+    {
+      "id": "Q11",
+      "controle": "recoupement de la piece primaire citee",
+      "attendu": "V04",
+      "observe": "Aucun relevé précis fourni ; V04",
+      "valide": true
+    },
+    {
+      "id": "Q12",
+      "controle": "recoupement de la piece primaire citee",
+      "attendu": "V06",
+      "observe": "Correctif inter-clients annoncé ; constat ouvert ; V06",
+      "valide": true
+    },
+    {
+      "id": "Q13",
+      "controle": "recoupement de la piece primaire citee",
+      "attendu": "V06",
+      "observe": "Résumé portail/API du 12 septembre ; intégrations exclues ; V06",
+      "valide": true
+    },
+    {
+      "id": "Q14",
+      "controle": "recoupement de la piece primaire citee",
+      "attendu": "V05,V08",
+      "observe": "« Huit heures démontrées » ; V05 ne couvre que des fichiers restaurés en six heures",
+      "valide": true
+    },
+    {
+      "id": "Q15",
+      "controle": "recoupement de la piece primaire citee",
+      "attendu": "V08",
+      "observe": "CSV annoncé, pièces non démontrées, accès 48 heures ; V08",
+      "valide": true
+    },
+    {
+      "id": "Q16",
+      "controle": "recoupement de la piece primaire citee",
+      "attendu": "V08",
+      "observe": "Trente jours actif, 90 jours sauvegardes, exceptions non détaillées ; V08",
+      "valide": true
+    },
+    {
+      "id": "Q17",
+      "controle": "recoupement de la piece primaire citee",
+      "attendu": "V09",
+      "observe": "Allégation commerciale et fiche ancienne hors portée démontrée ; V09",
+      "valide": true
+    },
+    {
+      "id": "Q18",
+      "controle": "recoupement de la piece primaire citee",
+      "attendu": "V02,V08",
+      "observe": "72 heures après confirmation ; contrat renvoie à la politique ; V02/V08",
+      "valide": true
+    },
+    {
+      "id": "Q19",
+      "controle": "recoupement de la piece primaire citee",
+      "attendu": "V08",
+      "observe": "Projet non signé, modalités partielles ; V08",
+      "valide": true
+    },
+    {
+      "id": "Q20",
+      "controle": "recoupement de la piece primaire citee",
+      "attendu": "V02",
+      "observe": "Plan fournisseur annoncé, aucun exercice client fourni ; V02",
+      "valide": true
+    },
+    {
+      "id": "VM01",
+      "controle": "F vers S vers VM",
+      "attendu": "S01/F01",
+      "observe": "S01/F01",
+      "valide": true
+    },
+    {
+      "id": "VM02",
+      "controle": "F vers S vers VM",
+      "attendu": "S02/F02",
+      "observe": "S02/F02",
+      "valide": true
+    },
+    {
+      "id": "VM03",
+      "controle": "F vers S vers VM",
+      "attendu": "S03/F03",
+      "observe": "S03/F03",
+      "valide": true
+    },
+    {
+      "id": "VM04",
+      "controle": "F vers S vers VM",
+      "attendu": "S04/F04",
+      "observe": "S04/F04",
+      "valide": true
+    },
+    {
+      "id": "VM05",
+      "controle": "F vers S vers VM",
+      "attendu": "S05/F05",
+      "observe": "S05/F05",
+      "valide": true
+    },
+    {
+      "id": "VM06",
+      "controle": "F vers S vers VM",
+      "attendu": "S06/F06",
+      "observe": "S06/F06",
+      "valide": true
+    },
+    {
+      "id": "VM07",
+      "controle": "F vers S vers VM",
+      "attendu": "S07/F07",
+      "observe": "S07/F07",
+      "valide": true
+    },
+    {
+      "id": "VM08",
+      "controle": "F vers S vers VM",
+      "attendu": "S08/F08",
+      "observe": "S08/F08",
+      "valide": true
+    },
+    {
+      "id": "R08/S08",
+      "controle": "miroir non additionne",
+      "valide": true
+    }
+  ],
+  "anomalies": []
+}

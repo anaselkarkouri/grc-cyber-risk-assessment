@@ -1,0 +1,10 @@
+{
+  "statut": "reussi",
+  "perimetre": "un fichier, deux commits, ACL NTFS locales",
+  "limites": [
+    "aucune cle utilisable",
+    "aucune rotation",
+    "aucun role GitHub",
+    "aucune recherche exhaustive de secrets"
+  ]
+}

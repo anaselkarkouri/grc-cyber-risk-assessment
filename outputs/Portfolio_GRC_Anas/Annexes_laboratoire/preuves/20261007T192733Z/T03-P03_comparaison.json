@@ -1,0 +1,74 @@
+{
+  "date_utc": "2026-10-07T19:27:35.048706+00:00",
+  "restauration": "C:\\Users\\admin\\Documents\\Codex\\2026-10-06\\cherche-tres-bien-et-profondement-et\\work\\grc_laboratoire\\execution_20261007T192733Z\\T03_sauvegarde_restauration\\restaure",
+  "fichiers": [
+    {
+      "fichier": "LAB-001.json",
+      "taille_attendue": 118,
+      "taille_observee": 118,
+      "sha256_attendu": "070047713cb0a4b279542ca2aa7c3d373a82f7635a7b87ae77d676aaf07a949a",
+      "sha256_observe": "070047713cb0a4b279542ca2aa7c3d373a82f7635a7b87ae77d676aaf07a949a",
+      "contenu_observe": {
+        "id": "LAB-001",
+        "titre": "Acces fictif",
+        "etat": "ouvert",
+        "texte": "Ticket artificiel numero un."
+      },
+      "egalite_contenu": true,
+      "egalite_taille": true,
+      "egalite_sha256": true
+    },
+    {
+      "fichier": "LAB-002.json",
+      "taille_attendue": 165,
+      "taille_observee": 165,
+      "sha256_attendu": "bebc71c8caf652a294b96af87010ebd630a97b075a95d42e27b8535f896d7048",
+      "sha256_observe": "bebc71c8caf652a294b96af87010ebd630a97b075a95d42e27b8535f896d7048",
+      "contenu_observe": {
+        "id": "LAB-002",
+        "titre": "Restauration de controle",
+        "etat": "en cours",
+        "texte": "Donnees artificielles avec accents : integrite, recuperation."
+      },
+      "egalite_contenu": true,
+      "egalite_taille": true,
+      "egalite_sha256": true
+    },
+    {
+      "fichier": "LAB-003.json",
+      "taille_attendue": 144,
+      "taille_observee": 144,
+      "sha256_attendu": "5555992300f17092c607695eb15d2303b7565d010909975a11953d37e4e78ebc",
+      "sha256_observe": "5555992300f17092c607695eb15d2303b7565d010909975a11953d37e4e78ebc",
+      "contenu_observe": {
+        "id": "LAB-003",
+        "titre": "Verification terminée",
+        "etat": "clos",
+        "texte": "Aucun client reel, aucune donnee personnelle."
+      },
+      "egalite_contenu": true,
+      "egalite_taille": true,
+      "egalite_sha256": true
+    }
+  ],
+  "droits_source": {
+    "date_utc": "2026-10-07T19:27:35.052911+00:00",
+    "commande": [
+      "icacls.exe",
+      "C:\\Users\\admin\\Documents\\Codex\\2026-10-06\\cherche-tres-bien-et-profondement-et\\work\\grc_laboratoire\\execution_20261007T192733Z\\T03_sauvegarde_restauration\\source"
+    ],
+    "code": 0,
+    "stdout": "C:\\Users\\admin\\Documents\\Codex\\2026-10-06\\cherche-tres-bien-et-profondement-et\\work\\grc_laboratoire\\execution_20261007T192733Z\\T03_sauvegarde_restauration\\source DESKTOP-3SQ1K5Q\\CodexSandboxUsers:(I)(OI)(CI)(M,DC)\n                                                                                                                                                                  S-1-5-21-2662677828-1466951677-2325617941-1215762659:(I)(OI)(CI)(M,DC)\n                                                                                                                                                                  S-1-5-21-1220936331-703112496-2524298523-2650420902:(I)(OI)(CI)(RX,W)\n                                                                                                                                                                  S-1-5-21-1512903184-610473712-2836880915-3540849950:(I)(OI)(CI)(RX,W)\n                                                                                                                                                                  S-1-5-21-119972183-3004304752-2601772536-2091825353:(I)(OI)(CI)(RX,W)\n                                                                                                                                                                  S-1-5-21-1250090963-3867925591-161807275-352272268:(I)(OI)(CI)(RX,W)\n                                                                                                                                                                  S-1-5-21-3326298252-3699782925-3528663943-436242575:(I)(OI)(CI)(RX,W)\n                                                                                                                                                                  S-1-5-21-1663238207-286782694-2267841947-842044430:(I)(OI)(CI)(RX,W)\n                                                                                                                                                                  S-1-5-21-2354147179-4003854254-1384485662-3907006528:(I)(OI)(CI)(RX,W)\n                                                                                                                                                                  AUTORITE NT\\Syst�me:(I)(OI)(CI)(F)\n                                                                                                                                                                  BUILTIN\\Administrateurs:(I)(OI)(CI)(F)\n                                                                                                                                                                  DESKTOP-3SQ1K5Q\\admin:(I)(OI)(CI)(F)\n\n1 fichiers correctement trait�s�; �chec du traitement de 0 fichiers\n",
+    "stderr": ""
+  },
+  "droits_restauration": {
+    "date_utc": "2026-10-07T19:27:35.084758+00:00",
+    "commande": [
+      "icacls.exe",
+      "C:\\Users\\admin\\Documents\\Codex\\2026-10-06\\cherche-tres-bien-et-profondement-et\\work\\grc_laboratoire\\execution_20261007T192733Z\\T03_sauvegarde_restauration\\restaure"
+    ],
+    "code": 0,
+    "stdout": "C:\\Users\\admin\\Documents\\Codex\\2026-10-06\\cherche-tres-bien-et-profondement-et\\work\\grc_laboratoire\\execution_20261007T192733Z\\T03_sauvegarde_restauration\\restaure DESKTOP-3SQ1K5Q\\CodexSandboxUsers:(I)(OI)(CI)(M,DC)\n                                                                                                                                                                    S-1-5-21-2662677828-1466951677-2325617941-1215762659:(I)(OI)(CI)(M,DC)\n                                                                                                                                                                    S-1-5-21-1220936331-703112496-2524298523-2650420902:(I)(OI)(CI)(RX,W)\n                                                                                                                                                                    S-1-5-21-1512903184-610473712-2836880915-3540849950:(I)(OI)(CI)(RX,W)\n                                                                                                                                                                    S-1-5-21-119972183-3004304752-2601772536-2091825353:(I)(OI)(CI)(RX,W)\n                                                                                                                                                                    S-1-5-21-1250090963-3867925591-161807275-352272268:(I)(OI)(CI)(RX,W)\n                                                                                                                                                                    S-1-5-21-3326298252-3699782925-3528663943-436242575:(I)(OI)(CI)(RX,W)\n                                                                                                                                                                    S-1-5-21-1663238207-286782694-2267841947-842044430:(I)(OI)(CI)(RX,W)\n                                                                                                                                                                    S-1-5-21-2354147179-4003854254-1384485662-3907006528:(I)(OI)(CI)(RX,W)\n                                                                                                                                                                    AUTORITE NT\\Syst�me:(I)(OI)(CI)(F)\n                                                                                                                                                                    BUILTIN\\Administrateurs:(I)(OI)(CI)(F)\n                                                                                                                                                                    DESKTOP-3SQ1K5Q\\admin:(I)(OI)(CI)(F)\n\n1 fichiers correctement trait�s�; �chec du traitement de 0 fichiers\n",
+    "stderr": ""
+  }
+}

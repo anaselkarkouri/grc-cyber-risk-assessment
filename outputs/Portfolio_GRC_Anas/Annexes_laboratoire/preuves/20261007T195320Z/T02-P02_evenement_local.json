@@ -1,0 +1,21 @@
+﻿{
+    "date_utc":  "2026-10-07T19:53:24.2162518Z",
+    "account":  "LAB-GRC-EVT",
+    "resultat_api":  false,
+    "erreur_win32":  1326,
+    "events":  [
+                   {
+                       "event_id":  4625,
+                       "record_id":  2204782,
+                       "date_utc":  "2026-10-07T19:53:20.9715351Z",
+                       "host":  "DESKTOP-3SQ1K5Q",
+                       "provider":  "Microsoft-Windows-Security-Auditing",
+                       "target_account":  "LAB-GRC-EVT",
+                       "status":  "0xc000006d",
+                       "substatus":  "0xc000006a",
+                       "logon_type":  "2",
+                       "process_name":  "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+                   }
+               ],
+    "limite":  "Champs selectionnes ; reception Wazuh et alerte restent a rechercher avec meme compte, record_id, host et heure."
+}

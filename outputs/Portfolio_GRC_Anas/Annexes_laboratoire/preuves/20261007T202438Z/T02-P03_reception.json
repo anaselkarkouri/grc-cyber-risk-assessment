@@ -1,0 +1,89 @@
+{
+  "date_collecte_utc": "2026-10-07T20:24:45.622918+00:00",
+  "commande": "sudo python3, lecture ligne par ligne et sélection compte LAB-GRC-EVT*, ID 4625 ; champs autorisés uniquement",
+  "resultat": {
+    "origine": "/var/ossec/logs/archives/archives.json",
+    "taille_source": 15984032,
+    "evenements_assainis": [
+      {
+        "decodage_ligne": "utf-8",
+        "timestamp_wazuh": "2026-10-07T20:23:19.944+0000",
+        "agent": {
+          "id": "001",
+          "name": "TMED-POC-HOST",
+          "ip": "192.168.56.1"
+        },
+        "manager": {
+          "name": "grc-wazuh-t02"
+        },
+        "rule": {
+          "level": 5,
+          "description": "Logon Failure - Unknown user or bad password",
+          "id": "60122",
+          "mitre": {
+            "id": [
+              "T1531"
+            ],
+            "tactic": [
+              "Impact"
+            ],
+            "technique": [
+              "Account Access Removal"
+            ]
+          },
+          "firedtimes": 1,
+          "mail": false,
+          "groups": [
+            "windows",
+            "windows_security",
+            "authentication_failed"
+          ],
+          "pci_dss": [
+            "10.2.4",
+            "10.2.5"
+          ],
+          "gpg13": [
+            "7.1"
+          ],
+          "gdpr": [
+            "IV_35.7.d",
+            "IV_32.2"
+          ],
+          "hipaa": [
+            "164.312.b"
+          ],
+          "nist_800_53": [
+            "AU.14",
+            "AC.7"
+          ],
+          "tsc": [
+            "CC6.1",
+            "CC6.8",
+            "CC7.2",
+            "CC7.3"
+          ]
+        },
+        "location": "EventChannel",
+        "decoder": {
+          "name": "windows_eventchannel"
+        },
+        "source": {
+          "providerName": "Microsoft-Windows-Security-Auditing",
+          "eventID": "4625",
+          "eventRecordID": "2204782",
+          "systemTime": "2026-10-07T19:53:20.9715351Z",
+          "computer": "DESKTOP-3SQ1K5Q",
+          "channel": "Security"
+        },
+        "eventdata": {
+          "targetUserName": "LAB-GRC-EVT",
+          "status": "0xc000006d",
+          "subStatus": "0xc000006a",
+          "logonType": "2",
+          "processName": "C:\\\\Windows\\\\System32\\\\WindowsPowerShell\\\\v1.0\\\\powershell.exe"
+        }
+      }
+    ]
+  },
+  "limite": "Événements des autres comptes exclus ; sortie brute entière jamais exportée."
+}

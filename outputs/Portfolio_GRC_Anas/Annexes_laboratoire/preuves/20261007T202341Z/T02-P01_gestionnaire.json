@@ -1,0 +1,25 @@
+{
+  "date_collecte_utc": "2026-10-07T20:23:45.033349+00:00",
+  "sources": {
+    "commande": "date --utc --iso-8601=seconds; uname -r; cat /etc/os-release; dpkg-query -W wazuh-manager; sudo systemctl is-active wazuh-manager; sudo /var/ossec/bin/agent_control -l; ip -brief address",
+    "code": 0,
+    "stdout": "2026-10-07T20:23:44+00:00\n6.8.0-142-generic\nPRETTY_NAME=\"Ubuntu 24.04.5 LTS\"\nNAME=\"Ubuntu\"\nVERSION_ID=\"24.04\"\nVERSION=\"24.04.5 LTS (Noble Numbat)\"\nVERSION_CODENAME=noble\nID=ubuntu\nID_LIKE=debian\nHOME_URL=\"https://www.ubuntu.com/\"\nSUPPORT_URL=\"https://help.ubuntu.com/\"\nBUG_REPORT_URL=\"https://bugs.launchpad.net/ubuntu/\"\nPRIVACY_POLICY_URL=\"https://www.ubuntu.com/legal/terms-and-policies/privacy-policy\"\nUBUNTU_CODENAME=noble\nLOGO=ubuntu-logo\nwazuh-manager\t4.14.8-1\nactive\n\nWazuh agent_control. List of available agents:\n   ID: 000, Name: grc-wazuh-t02 (server), IP: 127.0.0.1, Active/Local\n   ID: 001, Name: TMED-POC-HOST, IP: any, Active\n\nList of agentless devices:\n\nlo               UNKNOWN        127.0.0.1/8 ::1/128 \nenp0s3           UP             10.0.2.15/24 metric 100 fd17:625c:f037:2:a00:27ff:fea1:b2c4/64 fe80::a00:27ff:fea1:b2c4/64 \nenp0s8           UP             192.168.56.10/24 fe80::a00:27ff:fea1:b2c3/64 \n",
+    "stderr": ""
+  },
+  "preparation": {
+    "date_utc": "2026-10-07T19:54:56.224895+00:00",
+    "vm": "GRC-Wazuh-T02-20261007",
+    "image_url": "https://cloud-images.ubuntu.com/noble/20260926/noble-server-cloudimg-amd64.vmdk",
+    "sha256_attendu": "58001251111ae414947c62799e5b74c522ecaa6fa4cd654f7846042a0c60cbd1",
+    "sha256_observe": "58001251111ae414947c62799e5b74c522ecaa6fa4cd654f7846042a0c60cbd1",
+    "comparaison": true,
+    "source_checksum": "https://cloud-images.ubuntu.com/noble/20260926/SHA256SUMS",
+    "limite_verification": "SHA256 reçu par HTTPS officiel ; signature GPG du manifeste non vérifiée.",
+    "memoire_mio": 2048,
+    "cpu": 2,
+    "disque_mio": 20480,
+    "ip_hostonly": "192.168.56.10",
+    "ssh_nat": "127.0.0.1:22022",
+    "portee": "Gestionnaire et fichiers alerts/archives JSON uniquement ; pas de dashboard ni indexer, laboratoire personnel."
+  }
+}

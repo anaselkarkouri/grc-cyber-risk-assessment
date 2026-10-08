@@ -1,0 +1,347 @@
+{
+  "date_utc": "2026-10-07T20:33:20.111287+00:00",
+  "pieces": [
+    {
+      "fichier": "preuves/20261007T192733Z/REFERENCE_MANIFEST.json",
+      "taille": 3124,
+      "date_consolidation_utc": "2026-10-07T20:33:20.019548+00:00",
+      "sha256": "c319b6041e2f539da7f2b530060bc71172a3b1adfbb8c30c439867d7813148ea"
+    },
+    {
+      "fichier": "preuves/20261007T192733Z/T03-P01_attendus.json",
+      "taille": 1301,
+      "date_consolidation_utc": "2026-10-07T20:33:20.019548+00:00",
+      "sha256": "9eff7739db0bc7bf739a643f6c84db55ffa577271d47b3061dfdff9ce67888a1"
+    },
+    {
+      "fichier": "preuves/20261007T192733Z/T03-P02_copie.json",
+      "taille": 3855,
+      "date_consolidation_utc": "2026-10-07T20:33:20.020546+00:00",
+      "sha256": "9f81471e691a8b7b5c724753408a0288afc04114839802f08124f814b3200efa"
+    },
+    {
+      "fichier": "preuves/20261007T192733Z/T03-P03_comparaison.json",
+      "taille": 8344,
+      "date_consolidation_utc": "2026-10-07T20:33:20.020546+00:00",
+      "sha256": "fff95ff2e5ad3c6ab872d95ed3346fa0afb47acda5c2ad1af703cc2bcfe74167"
+    },
+    {
+      "fichier": "preuves/20261007T192733Z/T03-P04_chronologie.json",
+      "taille": 763,
+      "date_consolidation_utc": "2026-10-07T20:33:20.020546+00:00",
+      "sha256": "e3230f9c1924ee1bd51d46e8aa3feb9d07334482f89c85329d99c3817067122f"
+    },
+    {
+      "fichier": "preuves/20261007T192733Z/T03_copie_artificielle.zip",
+      "taille": 656,
+      "date_consolidation_utc": "2026-10-07T20:33:20.020546+00:00",
+      "sha256": "8070450a97c21799443f873b91558d33acb95bc6f0c4f28f670c8ce7df7afd21"
+    },
+    {
+      "fichier": "preuves/20261007T192733Z/T04-P01_perimetre_droits.json",
+      "taille": 6664,
+      "date_consolidation_utc": "2026-10-07T20:33:20.020546+00:00",
+      "sha256": "f850c82fcb03ea127282bd116cddd075e434fdcb0675746bdeab41929381c8e9"
+    },
+    {
+      "fichier": "preuves/20261007T192733Z/T04-P02_premier_commit.json",
+      "taille": 178,
+      "date_consolidation_utc": "2026-10-07T20:33:20.021901+00:00",
+      "sha256": "075554291fa1e65e1b2a34254f028605029007173c6c6b76d881a669839710f9"
+    },
+    {
+      "fichier": "preuves/20261007T192733Z/T04-P03_historique.json",
+      "taille": 6577,
+      "date_consolidation_utc": "2026-10-07T20:33:20.021901+00:00",
+      "sha256": "38aadaeb0cdcf994601b91dd279827c92d83fa697339a9dc32fd8635ae9e8dea"
+    },
+    {
+      "fichier": "preuves/20261007T192733Z/T04-P04_conclusion.json",
+      "taille": 236,
+      "date_consolidation_utc": "2026-10-07T20:33:20.021901+00:00",
+      "sha256": "bf298424fee3ca842b0822993c3e9ede302dde30788a462c977fea94969c868b"
+    },
+    {
+      "fichier": "preuves/20261007T193251Z/T01-P01_regles_roles.json",
+      "taille": 4836,
+      "date_consolidation_utc": "2026-10-07T20:33:20.021901+00:00",
+      "sha256": "57283fa606c1d7073e5a49638213ce46f220bf65281cb4875913523c85f1e72f"
+    },
+    {
+      "fichier": "preuves/20261007T193418Z/T01-P01_regles_roles.json",
+      "taille": 4837,
+      "date_consolidation_utc": "2026-10-07T20:33:20.021901+00:00",
+      "sha256": "7a86f4dda2df495bd4e0991b231ede583a41f17eb9df77a42d3ab68be1572d08"
+    },
+    {
+      "fichier": "preuves/20261007T193443Z/T01-P01_regles_roles.json",
+      "taille": 4837,
+      "date_consolidation_utc": "2026-10-07T20:33:20.021901+00:00",
+      "sha256": "ec894aca27a9b5fd02f1266751057508eee5f74d5e91bf39fdfd53237764691a"
+    },
+    {
+      "fichier": "preuves/20261007T193451Z/T01-P01_regles_roles.json",
+      "taille": 4837,
+      "date_consolidation_utc": "2026-10-07T20:33:20.021901+00:00",
+      "sha256": "e891f3c81873a11620810ecfc022903576ef262431e681b57792303fc62b2f30"
+    },
+    {
+      "fichier": "preuves/20261007T193511Z/T01-P01_regles_roles.json",
+      "taille": 4837,
+      "date_consolidation_utc": "2026-10-07T20:33:20.023273+00:00",
+      "sha256": "b343eba52beb40037164ec6d1f7545fb067c872e75a5c4c3a8aaf05182186ec8"
+    },
+    {
+      "fichier": "preuves/20261007T193511Z/T01-P02_autorisations.json",
+      "taille": 308,
+      "date_consolidation_utc": "2026-10-07T20:33:20.023273+00:00",
+      "sha256": "28d0a09d5bf5557345001b055c0824109888e4a555dcadd5df0af8b849b9e29d"
+    },
+    {
+      "fichier": "preuves/20261007T193511Z/T01-P03_mfa.json",
+      "taille": 1765,
+      "date_consolidation_utc": "2026-10-07T20:33:20.023273+00:00",
+      "sha256": "5ec02877dc80408f4e6959bb7e864e3a4797c03f96d665fea7f62997fffef296"
+    },
+    {
+      "fichier": "preuves/20261007T193511Z/T01-P04_revocation_recuperation.json",
+      "taille": 776,
+      "date_consolidation_utc": "2026-10-07T20:33:20.023273+00:00",
+      "sha256": "67f4809c9169efb9a9bf09e76623ccfb3b46ec6c32ee392f1864f645dcd57d2e"
+    },
+    {
+      "fichier": "preuves/20261007T193511Z/T01_evenements_assainis.json",
+      "taille": 2350,
+      "date_consolidation_utc": "2026-10-07T20:33:20.024260+00:00",
+      "sha256": "b6207aef204490553356a0c696d5753488a860f6733feb5b3032826db42e18e5"
+    },
+    {
+      "fichier": "preuves/20261007T193511Z/T01_statut.json",
+      "taille": 355,
+      "date_consolidation_utc": "2026-10-07T20:33:20.024260+00:00",
+      "sha256": "05613b9142187908e868685a54e8c04982070678adb85c036d869abc13e5325c"
+    },
+    {
+      "fichier": "preuves/20261007T193641Z/T01-P01_regles_roles.json",
+      "taille": 4837,
+      "date_consolidation_utc": "2026-10-07T20:33:20.024260+00:00",
+      "sha256": "84a003bfd1b19818d81d9b9703fac04d8fca78b5e890e03a64aa359e9434c116"
+    },
+    {
+      "fichier": "preuves/20261007T193641Z/T01-P02_autorisations.json",
+      "taille": 308,
+      "date_consolidation_utc": "2026-10-07T20:33:20.025236+00:00",
+      "sha256": "3b4f76cc4258cb61bc83e6858af9e26f21d1c0822fee9cc25ea2c9dff17bb246"
+    },
+    {
+      "fichier": "preuves/20261007T193641Z/T01-P03_mfa.json",
+      "taille": 1791,
+      "date_consolidation_utc": "2026-10-07T20:33:20.025236+00:00",
+      "sha256": "36a8f5becb77ebc9089a1401a0b42481359e59b9794d64f655c0adb727531d16"
+    },
+    {
+      "fichier": "preuves/20261007T193641Z/T01-P04_revocation_recuperation.json",
+      "taille": 917,
+      "date_consolidation_utc": "2026-10-07T20:33:20.025236+00:00",
+      "sha256": "a9a7b354e16fae9ab8371c97d00475507a59386c48e9e1e9bc601fa865a095fe"
+    },
+    {
+      "fichier": "preuves/20261007T193641Z/T01_evenements_assainis.json",
+      "taille": 3796,
+      "date_consolidation_utc": "2026-10-07T20:33:20.026213+00:00",
+      "sha256": "f1afec3238d4ee4b0972462a70daf4b150f81067747390dd0bf719e908376e4d"
+    },
+    {
+      "fichier": "preuves/20261007T193641Z/T01_statut.json",
+      "taille": 355,
+      "date_consolidation_utc": "2026-10-07T20:33:20.026213+00:00",
+      "sha256": "8b1dc03a40252b4af38341290c62fe60d18f10d5ce3edb79a5567bc8013b0757"
+    },
+    {
+      "fichier": "preuves/20261007T193900Z/T01-P01_regles_roles.json",
+      "taille": 4837,
+      "date_consolidation_utc": "2026-10-07T20:33:20.026213+00:00",
+      "sha256": "3a56708302855f37100628b5298c114b665bd5726640f74ca5a02632b4902c7a"
+    },
+    {
+      "fichier": "preuves/20261007T193900Z/T01-P02_autorisations.json",
+      "taille": 308,
+      "date_consolidation_utc": "2026-10-07T20:33:20.026213+00:00",
+      "sha256": "86c73047b8a356daa690754bfc0d302089eb99af3e5f3a156055c80a233c3349"
+    },
+    {
+      "fichier": "preuves/20261007T193900Z/T01-P03_mfa.json",
+      "taille": 1791,
+      "date_consolidation_utc": "2026-10-07T20:33:20.026213+00:00",
+      "sha256": "92a05bc5742e3257f2cea18f82421708eae432132bbbc79f40da783ad0ba01f5"
+    },
+    {
+      "fichier": "preuves/20261007T193900Z/T01-P04_revocation_recuperation.json",
+      "taille": 917,
+      "date_consolidation_utc": "2026-10-07T20:33:20.027269+00:00",
+      "sha256": "16e59960b82eb0bafe639118769435131993ec04251d4891ba5ab4cf4b9a4c53"
+    },
+    {
+      "fichier": "preuves/20261007T193900Z/T01_chemins_alternatifs.json",
+      "taille": 497,
+      "date_consolidation_utc": "2026-10-07T20:33:20.027269+00:00",
+      "sha256": "b703218da4b855fcb97f71d22a27955fc44b2398ecb85eef85b9690ed8eb1607"
+    },
+    {
+      "fichier": "preuves/20261007T193900Z/T01_evenements_assainis.json",
+      "taille": 5590,
+      "date_consolidation_utc": "2026-10-07T20:33:20.027269+00:00",
+      "sha256": "61cf83ab63f54175edc39d0515db75e137728a8594c38ce9d42a93e622a242e4"
+    },
+    {
+      "fichier": "preuves/20261007T193900Z/T01_statut.json",
+      "taille": 392,
+      "date_consolidation_utc": "2026-10-07T20:33:20.027269+00:00",
+      "sha256": "9168f0b4190a584e803774ef6dfc08b4829a61cc89415a3826b6b63052eac4e1"
+    },
+    {
+      "fichier": "preuves/20261007T195320Z/T02-D02_preparation_VM.json",
+      "taille": 835,
+      "date_consolidation_utc": "2026-10-07T20:33:20.028169+00:00",
+      "sha256": "a01b09eca4c5c0fd3f37a0b93c77cdac7aef52fdca901aca5b3fad0983168d55"
+    },
+    {
+      "fichier": "preuves/20261007T195320Z/T02-D03_console_apres_cpu.png",
+      "taille": 14099,
+      "date_consolidation_utc": "2026-10-07T20:33:20.028169+00:00",
+      "sha256": "9f1d569a3361b6459f43dcd38f2b11834f15d8bc93451ee069a8b4ed0b3418e7"
+    },
+    {
+      "fichier": "preuves/20261007T195320Z/T02-D03_console_hyperv.png",
+      "taille": 14179,
+      "date_consolidation_utc": "2026-10-07T20:33:20.028169+00:00",
+      "sha256": "1fe660e2afa2ecc00c2e4940f78e90d631b214a639f38b0a69df9d310ec621c9"
+    },
+    {
+      "fichier": "preuves/20261007T195320Z/T02-D03_console_initiale.png",
+      "taille": 45090,
+      "date_consolidation_utc": "2026-10-07T20:33:20.028169+00:00",
+      "sha256": "fe3262a05e4d6ea0cce5be4b574b0d3cfeb0eca3b162bb1664b39e5196dea9ce"
+    },
+    {
+      "fichier": "preuves/20261007T195320Z/T02-D03_console_sans_ioapic.png",
+      "taille": 39345,
+      "date_consolidation_utc": "2026-10-07T20:33:20.028169+00:00",
+      "sha256": "8cadc8f2f97e9fb7f8913de6af997f3bb441bfbcc2b8efaaca62a6aea8a90092"
+    },
+    {
+      "fichier": "preuves/20261007T195320Z/T02-D04_diagnostics_VM.json",
+      "taille": 2231,
+      "date_consolidation_utc": "2026-10-07T20:33:20.029201+00:00",
+      "sha256": "b7db05da930f3c31166709c74e135de14de11d98c51b77911f22465d76dfa0f3"
+    },
+    {
+      "fichier": "preuves/20261007T195320Z/T02-P01_source.json",
+      "taille": 5524,
+      "date_consolidation_utc": "2026-10-07T20:33:20.029201+00:00",
+      "sha256": "a10710189971b12f9992dd220d4daaa4b98d3af197be6013ce829f5cc31822d9"
+    },
+    {
+      "fichier": "preuves/20261007T195320Z/T02-P02_evenement_local.json",
+      "taille": 956,
+      "date_consolidation_utc": "2026-10-07T20:33:20.029201+00:00",
+      "sha256": "9150b55f679b2e0fbd4a89ef0568cd315d68b89802942a598f3ce6420416fe3f"
+    },
+    {
+      "fichier": "preuves/20261007T202341Z/T02-P01_gestionnaire.json",
+      "taille": 2199,
+      "date_consolidation_utc": "2026-10-07T20:33:20.029201+00:00",
+      "sha256": "74dd8712f57313f9624ecce9a0badf167ac64f004189e85dbc6d758c25b31fb6"
+    },
+    {
+      "fichier": "preuves/20261007T202438Z/T02-D05_diagnostic_export.txt",
+      "taille": 479,
+      "date_consolidation_utc": "2026-10-07T20:33:20.047318+00:00",
+      "sha256": "d223110b5d56a43a8357994576c24ceb78ef997d2bb1ca58523c74991b99297b"
+    },
+    {
+      "fichier": "preuves/20261007T202438Z/T02-D06_diagnostic_https.txt",
+      "taille": 114,
+      "date_consolidation_utc": "2026-10-07T20:33:20.054923+00:00",
+      "sha256": "3da71d007493582e8078b06b38b822f0bcd8ad04711d16827b3b2ce466c40326"
+    },
+    {
+      "fichier": "preuves/20261007T202438Z/T02-D06_diagnostic_installer.txt",
+      "taille": 281,
+      "date_consolidation_utc": "2026-10-07T20:33:20.061714+00:00",
+      "sha256": "47906cf7d0e31be1d3c636a3a7ef949820bbf8454f6f3b9e4f6f8b7ba22835b8"
+    },
+    {
+      "fichier": "preuves/20261007T202438Z/T02-D06_diagnostic_reseau.txt",
+      "taille": 3066,
+      "date_consolidation_utc": "2026-10-07T20:33:20.074913+00:00",
+      "sha256": "78fadc4656a3a28c660491aaa8ab1c307dd204c96639b5ed63c1b0ab5a9ce5eb"
+    },
+    {
+      "fichier": "preuves/20261007T202438Z/T02-P01_gestionnaire.json",
+      "taille": 2199,
+      "date_consolidation_utc": "2026-10-07T20:33:20.088524+00:00",
+      "sha256": "985f8bfb2a531cf67db74b2626756f6a237ec7b3f6b09c7136563385324c4a70"
+    },
+    {
+      "fichier": "preuves/20261007T202438Z/T02-P03_reception.json",
+      "taille": 2512,
+      "date_consolidation_utc": "2026-10-07T20:33:20.088524+00:00",
+      "sha256": "c8e02440d5f6c267cb0b99cd18a2255d8116bf77af2654c894066dc295991385"
+    },
+    {
+      "fichier": "preuves/20261007T202438Z/T02-P04_alerte.json",
+      "taille": 2507,
+      "date_consolidation_utc": "2026-10-07T20:33:20.089393+00:00",
+      "sha256": "34c5fb46c080ee528afa854ee627995785c1cfaed609da2ff79dc5b64eb98300"
+    },
+    {
+      "fichier": "preuves/20261007T202438Z/T02-P05_droits_conservation.json",
+      "taille": 1841,
+      "date_consolidation_utc": "2026-10-07T20:33:20.089393+00:00",
+      "sha256": "3af409e02dde69a56c0208e05b6afbc53e1a47f48a516bc9d0159708d3e336e2"
+    },
+    {
+      "fichier": "preuves/20261007T202438Z/T02-P05b_parametres_retention.json",
+      "taille": 953,
+      "date_consolidation_utc": "2026-10-07T20:33:20.089393+00:00",
+      "sha256": "273d67006d319bd84f4580afd1057e3792f26149c380e0bdce38ade00a18cf07"
+    },
+    {
+      "fichier": "preuves/20261007T202438Z/T02-P06_rapprochement.json",
+      "taille": 1576,
+      "date_consolidation_utc": "2026-10-07T20:33:20.099802+00:00",
+      "sha256": "43ae37a73c8e8f134be45ad1daf411ebd656b6ea955d909d043b22d5fa59b84a"
+    },
+    {
+      "fichier": "preuves/INVENTAIRE/inventaire_eleve.json",
+      "taille": 5524,
+      "date_consolidation_utc": "2026-10-07T20:33:20.110241+00:00",
+      "sha256": "a10710189971b12f9992dd220d4daaa4b98d3af197be6013ce829f5cc31822d9"
+    },
+    {
+      "fichier": "preuves/INVENTAIRE/inventaire_initial.json",
+      "taille": 4604,
+      "date_consolidation_utc": "2026-10-07T20:33:20.110241+00:00",
+      "sha256": "9dfdb51565461a907a21aa9dca4c23bc331ad15d3cc56a7e9f29661ea27869aa"
+    },
+    {
+      "fichier": "preuves/INVENTAIRE/T01-D01_diagnostics.txt",
+      "taille": 1292,
+      "date_consolidation_utc": "2026-10-07T20:33:20.111287+00:00",
+      "sha256": "f66072372ee629ed40c04e1e74275c1b19ba84e0d7e1f49a153241d82a923c28"
+    },
+    {
+      "fichier": "preuves/INVENTAIRE/T02-D01_acces_refuses.txt",
+      "taille": 846,
+      "date_consolidation_utc": "2026-10-07T20:33:20.111287+00:00",
+      "sha256": "0ddadab61b1ca12f17e7a9c572aeadbd735958c14defdfcc2bdbbbb021b93702"
+    },
+    {
+      "fichier": "preuves/INVENTAIRE/VERIFICATION_DOCUMENTAIRE.json",
+      "taille": 43196,
+      "date_consolidation_utc": "2026-10-07T20:33:20.111287+00:00",
+      "sha256": "d8036a221402de7a9e33f347858021bb48a11cf61f064180fb7de2aeff357e47"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "date_utc": "2026-10-07T19:35:12.578885+00:00",
+  "service": "https://127.0.0.1:18443",
+  "realm": "grc-lab",
+  "versions": {
+    "date_utc": "2026-10-07T19:29:31.554269+00:00",
+    "keycloak_version": "26.8.0",
+    "jdk_version": "25.0.4+101.0.LTS",
+    "composants": [
+      {
+        "composant": "keycloak",
+        "url": "https://github.com/keycloak/keycloak/releases/download/26.8.0/keycloak-26.8.0.zip",
+        "sha256_attendu": "7ed1de3fda2598369262613bf682aab7e233d80a38c405e91588f7a7454370a1",
+        "sha256_observe": "7ed1de3fda2598369262613bf682aab7e233d80a38c405e91588f7a7454370a1",
+        "verifie": true,
+        "dossier": "C:\\Users\\admin\\Documents\\Codex\\2026-10-06\\cherche-tres-bien-et-profondement-et\\work\\grc_laboratoire\\T01_acces_mfa\\keycloak-26.8.0",
+        "taille": 174169645
+      },
+      {
+        "composant": "jdk",
+        "url": "https://github.com/adoptium/temurin25-binaries/releases/download/jdk-25.0.4.1%2B1/OpenJDK25U-jdk_x64_windows_hotspot_25.0.4.1_1.zip",
+        "sha256_attendu": "00c847d804f4a78e9f04f2683faf14fed898535b177b7fc704486cb0284e9283",
+        "sha256_observe": "00c847d804f4a78e9f04f2683faf14fed898535b177b7fc704486cb0284e9283",
+        "verifie": true,
+        "dossier": "C:\\Users\\admin\\Documents\\Codex\\2026-10-06\\cherche-tres-bien-et-profondement-et\\work\\grc_laboratoire\\T01_acces_mfa\\jdk-25.0.4.1+1",
+        "taille": 141167264
+      }
+    ]
+  },
+  "java_version": "openjdk version \"25.0.4.1\" 2026-08-18 LTS\nOpenJDK Runtime Environment Temurin-25.0.4.1+1 (build 25.0.4.1+1-LTS)\nOpenJDK 64-Bit Server VM Temurin-25.0.4.1+1 (build 25.0.4.1+1-LTS, mixed mode, sharing)\n",
+  "comptes": {
+    "LAB-ADMIN": [
+      "realm-management/realm-admin"
+    ],
+    "LAB-LECTEUR": [
+      "realm-management/query-users",
+      "realm-management/view-users"
+    ]
+  },
+  "actions_obligatoires": {
+    "CONFIGURE_TOTP": {
+      "enabled": true,
+      "defaultAction": true
+    }
+  },
+  "flux_navigateur": [
+    {
+      "displayName": "Cookie",
+      "providerId": "auth-cookie",
+      "requirement": "ALTERNATIVE",
+      "authenticationFlow": null
+    },
+    {
+      "displayName": "Kerberos",
+      "providerId": "auth-spnego",
+      "requirement": "DISABLED",
+      "authenticationFlow": null
+    },
+    {
+      "displayName": "Identity Provider Redirector",
+      "providerId": "identity-provider-redirector",
+      "requirement": "ALTERNATIVE",
+      "authenticationFlow": null
+    },
+    {
+      "displayName": "Organization",
+      "providerId": null,
+      "requirement": "ALTERNATIVE",
+      "authenticationFlow": true
+    },
+    {
+      "displayName": "Browser - Conditional Organization",
+      "providerId": null,
+      "requirement": "CONDITIONAL",
+      "authenticationFlow": true
+    },
+    {
+      "displayName": "Condition - user configured",
+      "providerId": "conditional-user-configured",
+      "requirement": "REQUIRED",
+      "authenticationFlow": null
+    },
+    {
+      "displayName": "Organization Identity-First Login",
+      "providerId": "organization",
+      "requirement": "ALTERNATIVE",
+      "authenticationFlow": null
+    },
+    {
+      "displayName": "forms",
+      "providerId": null,
+      "requirement": "ALTERNATIVE",
+      "authenticationFlow": true
+    },
+    {
+      "displayName": "Username Password Form",
+      "providerId": "auth-username-password-form",
+      "requirement": "REQUIRED",
+      "authenticationFlow": null
+    },
+    {
+      "displayName": "Browser - Conditional 2FA",
+      "providerId": null,
+      "requirement": "CONDITIONAL",
+      "authenticationFlow": true
+    },
+    {
+      "displayName": "Condition - user configured",
+      "providerId": "conditional-user-configured",
+      "requirement": "REQUIRED",
+      "authenticationFlow": null
+    },
+    {
+      "displayName": "Condition - credential",
+      "providerId": "conditional-credential",
+      "requirement": "REQUIRED",
+      "authenticationFlow": null
+    },
+    {
+      "displayName": "OTP Form",
+      "providerId": "auth-otp-form",
+      "requirement": "ALTERNATIVE",
+      "authenticationFlow": null
+    },
+    {
+      "displayName": "WebAuthn Authenticator",
+      "providerId": "webauthn-authenticator",
+      "requirement": "DISABLED",
+      "authenticationFlow": null
+    },
+    {
+      "displayName": "Recovery Authentication Code Form",
+      "providerId": "auth-recovery-authn-code-form",
+      "requirement": "DISABLED",
+      "authenticationFlow": null
+    }
+  ],
+  "direct_access_grants_client": false,
+  "resetPasswordAllowed": false,
+  "registrationAllowed": false,
+  "limite_bootstrap": "LAB-RECOVERY du realm master, exception de mise en place locale, hors comptes de test"
+}

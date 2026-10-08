@@ -1,0 +1,12 @@
+{
+  "date_utc": "2026-10-07T19:39:31.789301+00:00",
+  "lecteur_lecture_utilisateurs": 200,
+  "lecteur_modification_realm": 403,
+  "admin_modification_realm": 204,
+  "resultats_attendus": [
+    200,
+    403,
+    204
+  ],
+  "etendue": "API administrative native Keycloak, droits serveur controles"
+}

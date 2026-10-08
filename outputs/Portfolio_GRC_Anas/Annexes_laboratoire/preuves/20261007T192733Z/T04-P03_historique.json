@@ -1,0 +1,220 @@
+{
+  "date_utc": "2026-10-07T19:27:34.974918+00:00",
+  "commit_initial": "456c91950b48e1401cd872f1b5369d67da1f5d05",
+  "commit_courant": "9b7dd80636c691bda4dfb6661cc2016490fcb215",
+  "courant": "usage=donnees-artificielles\nmarqueur=retire-de-la-version-courante",
+  "ancien": "usage=donnees-artificielles\nmarqueur=SECRET-DEMO-NON-UTILISABLE",
+  "commandes": [
+    {
+      "date_utc": "2026-10-07T19:27:33.858532+00:00",
+      "commande": [
+        "C:\\Program Files\\Git\\cmd\\git.exe",
+        "init",
+        "--initial-branch=main"
+      ],
+      "code": 0,
+      "stdout": "Initialized empty Git repository in C:/Users/admin/Documents/Codex/2026-10-06/cherche-tres-bien-et-profondement-et/work/grc_laboratoire/execution_20261007T192733Z/T04_secrets_git/depot_demo/.git/\n",
+      "stderr": ""
+    },
+    {
+      "date_utc": "2026-10-07T19:27:33.908471+00:00",
+      "commande": [
+        "C:\\Program Files\\Git\\cmd\\git.exe",
+        "config",
+        "user.name",
+        "LAB-GRC"
+      ],
+      "code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "date_utc": "2026-10-07T19:27:33.952112+00:00",
+      "commande": [
+        "C:\\Program Files\\Git\\cmd\\git.exe",
+        "config",
+        "user.email",
+        "lab-grc@example.invalid"
+      ],
+      "code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "date_utc": "2026-10-07T19:27:33.997773+00:00",
+      "commande": [
+        "C:\\Program Files\\Git\\cmd\\git.exe",
+        "config",
+        "commit.gpgsign",
+        "false"
+      ],
+      "code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "date_utc": "2026-10-07T19:27:34.039371+00:00",
+      "commande": [
+        "C:\\Program Files\\Git\\cmd\\git.exe",
+        "config",
+        "core.autocrlf",
+        "false"
+      ],
+      "code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "date_utc": "2026-10-07T19:27:34.103143+00:00",
+      "commande": [
+        "C:\\Program Files\\Git\\cmd\\git.exe",
+        "add",
+        "configuration.txt"
+      ],
+      "code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "date_utc": "2026-10-07T19:27:34.230871+00:00",
+      "commande": [
+        "C:\\Program Files\\Git\\cmd\\git.exe",
+        "commit",
+        "-m",
+        "T04 marqueur inoffensif initial"
+      ],
+      "code": 0,
+      "stdout": "[main (root-commit) 456c919] T04 marqueur inoffensif initial\n 1 file changed, 2 insertions(+)\n create mode 100644 configuration.txt\n",
+      "stderr": ""
+    },
+    {
+      "date_utc": "2026-10-07T19:27:34.275490+00:00",
+      "commande": [
+        "C:\\Program Files\\Git\\cmd\\git.exe",
+        "rev-parse",
+        "HEAD"
+      ],
+      "code": 0,
+      "stdout": "456c91950b48e1401cd872f1b5369d67da1f5d05\n",
+      "stderr": ""
+    },
+    {
+      "date_utc": "2026-10-07T19:27:34.341604+00:00",
+      "commande": [
+        "C:\\Program Files\\Git\\cmd\\git.exe",
+        "add",
+        "configuration.txt"
+      ],
+      "code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "date_utc": "2026-10-07T19:27:34.476977+00:00",
+      "commande": [
+        "C:\\Program Files\\Git\\cmd\\git.exe",
+        "commit",
+        "-m",
+        "T04 retrait du marqueur courant"
+      ],
+      "code": 0,
+      "stdout": "[main 9b7dd80] T04 retrait du marqueur courant\n 1 file changed, 1 insertion(+), 1 deletion(-)\n",
+      "stderr": ""
+    },
+    {
+      "date_utc": "2026-10-07T19:27:34.523745+00:00",
+      "commande": [
+        "C:\\Program Files\\Git\\cmd\\git.exe",
+        "rev-parse",
+        "HEAD"
+      ],
+      "code": 0,
+      "stdout": "9b7dd80636c691bda4dfb6661cc2016490fcb215\n",
+      "stderr": ""
+    },
+    {
+      "date_utc": "2026-10-07T19:27:34.569332+00:00",
+      "commande": [
+        "C:\\Program Files\\Git\\cmd\\git.exe",
+        "show",
+        "HEAD:configuration.txt"
+      ],
+      "code": 0,
+      "stdout": "usage=donnees-artificielles\nmarqueur=retire-de-la-version-courante\n",
+      "stderr": ""
+    },
+    {
+      "date_utc": "2026-10-07T19:27:34.615101+00:00",
+      "commande": [
+        "C:\\Program Files\\Git\\cmd\\git.exe",
+        "show",
+        "456c91950b48e1401cd872f1b5369d67da1f5d05:configuration.txt"
+      ],
+      "code": 0,
+      "stdout": "usage=donnees-artificielles\nmarqueur=SECRET-DEMO-NON-UTILISABLE\n",
+      "stderr": ""
+    },
+    {
+      "date_utc": "2026-10-07T19:27:34.655172+00:00",
+      "commande": [
+        "C:\\Program Files\\Git\\cmd\\git.exe",
+        "grep",
+        "-n",
+        "SECRET-DEMO-NON-UTILISABLE",
+        "HEAD"
+      ],
+      "code": 1,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "date_utc": "2026-10-07T19:27:34.703391+00:00",
+      "commande": [
+        "C:\\Program Files\\Git\\cmd\\git.exe",
+        "grep",
+        "-n",
+        "SECRET-DEMO-NON-UTILISABLE",
+        "456c91950b48e1401cd872f1b5369d67da1f5d05"
+      ],
+      "code": 0,
+      "stdout": "456c91950b48e1401cd872f1b5369d67da1f5d05:configuration.txt:2:marqueur=SECRET-DEMO-NON-UTILISABLE\n",
+      "stderr": ""
+    },
+    {
+      "date_utc": "2026-10-07T19:27:34.751490+00:00",
+      "commande": [
+        "C:\\Program Files\\Git\\cmd\\git.exe",
+        "log",
+        "--format=fuller",
+        "--date=iso-strict"
+      ],
+      "code": 0,
+      "stdout": "commit 9b7dd80636c691bda4dfb6661cc2016490fcb215\nAuthor:     LAB-GRC <lab-grc@example.invalid>\nAuthorDate: 2026-10-07T19:27:34Z\nCommit:     LAB-GRC <lab-grc@example.invalid>\nCommitDate: 2026-10-07T19:27:34Z\n\n    T04 retrait du marqueur courant\n\ncommit 456c91950b48e1401cd872f1b5369d67da1f5d05\nAuthor:     LAB-GRC <lab-grc@example.invalid>\nAuthorDate: 2026-10-07T19:27:34Z\nCommit:     LAB-GRC <lab-grc@example.invalid>\nCommitDate: 2026-10-07T19:27:34Z\n\n    T04 marqueur inoffensif initial\n",
+      "stderr": ""
+    },
+    {
+      "date_utc": "2026-10-07T19:27:34.799777+00:00",
+      "commande": [
+        "C:\\Program Files\\Git\\cmd\\git.exe",
+        "remote",
+        "-v"
+      ],
+      "code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "date_utc": "2026-10-07T19:27:34.858610+00:00",
+      "commande": [
+        "C:\\Program Files\\Git\\cmd\\git.exe",
+        "status",
+        "--porcelain"
+      ],
+      "code": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "courant_sans_marqueur": true,
+  "ancien_avec_marqueur": true
+}

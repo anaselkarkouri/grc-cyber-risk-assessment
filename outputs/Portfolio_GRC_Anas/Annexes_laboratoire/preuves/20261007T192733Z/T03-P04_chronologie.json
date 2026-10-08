@@ -1,0 +1,23 @@
+{
+  "debut_utc": "2026-10-07T19:27:35.037035+00:00",
+  "fin_utc": "2026-10-07T19:27:35.037035+00:00",
+  "duree_restauration_secondes": 0.003680100002384279,
+  "age_copie_secondes": 0.03254103660583496,
+  "statut": "reussi",
+  "limites": [
+    "copie sur le meme volume et sous le meme utilisateur",
+    "pas de stockage immuable ni de copie hors site",
+    "ni application ni base SaaS restauree",
+    "RTO huit heures et RPO 24 heures non prouves"
+  ],
+  "python": {
+    "date_utc": "2026-10-07T19:27:35.104334+00:00",
+    "commande": [
+      "C:\\Users\\admin\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+      "--version"
+    ],
+    "code": 0,
+    "stdout": "Python 3.12.14\n",
+    "stderr": ""
+  }
+}

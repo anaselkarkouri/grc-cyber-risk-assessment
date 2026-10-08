@@ -1,0 +1,78 @@
+[
+  {
+    "path": "CV_Anas_El_Karkouri_GRC_version_cible.pdf",
+    "sha256": "d2cf285311495fa1940b6251c119c853ba686dd7e072c7593bbfce5e0477825d"
+  },
+  {
+    "path": "Portfolio_GRC_Anas\\GUIDE_APPROPRIATION.md",
+    "sha256": "03f63291080310dd2e85dc246e1c8c0b006b20a2f199d98e00a992213e838e25"
+  },
+  {
+    "path": "Portfolio_GRC_Anas\\README.md",
+    "sha256": "b1ee99b802b214c9ceceb6088ea77e988295e669e18b92f21d56a3e02f1ddba7"
+  },
+  {
+    "path": "Portfolio_GRC_Anas\\SOURCES.md",
+    "sha256": "c7b64977822b08fd064b536bf4609f88236e683862b4f1b03f350178adef87db"
+  },
+  {
+    "path": "Portfolio_GRC_Anas\\VERIFICATION.md",
+    "sha256": "e95c5dcfda3705aedbe57bccf53f0cd63ef90321ba91208dbe88f08af1bf01c6"
+  },
+  {
+    "path": "Portfolio_GRC_Anas\\Projet_1_SSI\\01_contexte_perimetre_actifs.md",
+    "sha256": "760993d3405a2569b38bbfd3c1a3d83b58d61546fc4a72874f0a6253f05f13cd"
+  },
+  {
+    "path": "Portfolio_GRC_Anas\\Projet_1_SSI\\02_methode_registre_risques.md",
+    "sha256": "97af4ef3ab9e40f3ac5d0545941df82c81c2a3323ae5bbe7ccf22daa5f55bc91"
+  },
+  {
+    "path": "Portfolio_GRC_Anas\\Projet_1_SSI\\03_traitement_controles_SoA.md",
+    "sha256": "6650fcfd0d07d7ab1637c48e4ce074086676cf549bab4952145bd38d0ac3a7f9"
+  },
+  {
+    "path": "Portfolio_GRC_Anas\\Projet_1_SSI\\04_preuves_et_constats.md",
+    "sha256": "00ed77103572100a3a148e90947767a689529536dd4239bda6605e1f6d526e61"
+  },
+  {
+    "path": "Portfolio_GRC_Anas\\Projet_1_SSI\\05_PSSI_procedures.md",
+    "sha256": "0f421384cf103ddc80a81958eb517302734ed7d46651b4058283e9fde5b3c1a1"
+  },
+  {
+    "path": "Portfolio_GRC_Anas\\Projet_1_SSI\\06_tests_manuels.md",
+    "sha256": "cf78d8341e72ccf05211fbf5a78457c74e2e53a1ea9f56fa14c28153fe5159e6"
+  },
+  {
+    "path": "Portfolio_GRC_Anas\\Projet_1_SSI\\07_profil_NIST_CSF_2.md",
+    "sha256": "4c7972c38f64ecf4042a1c4104c600243c0775b2b69e4dbf5358a3beff880e29"
+  },
+  {
+    "path": "Portfolio_GRC_Anas\\Projet_1_SSI\\08_synthese_direction.md",
+    "sha256": "ce739d15973a2a2178a5bb4234382adc2e4f49e3bc06741521ec1d741881a30b"
+  },
+  {
+    "path": "Portfolio_GRC_Anas\\Projet_2_TPRM\\01_cadrage_criticite.md",
+    "sha256": "a9432a254f098da6147b616ce117fdf5c08515c7ae8ff8ae9510cb34423bf07c"
+  },
+  {
+    "path": "Portfolio_GRC_Anas\\Projet_2_TPRM\\02_dossier_fournisseur_simule.md",
+    "sha256": "60f1523ecf87d311b299f794f22581c0e5bebe177e32069fa1853231c9016114"
+  },
+  {
+    "path": "Portfolio_GRC_Anas\\Projet_2_TPRM\\03_questionnaire_et_reponses.md",
+    "sha256": "68960f5e968f55155b40e93475743db1cb9bc30bb1b10c445e6029e4e5530c49"
+  },
+  {
+    "path": "Portfolio_GRC_Anas\\Projet_2_TPRM\\04_constats_registre_risques.md",
+    "sha256": "4acdb09b54716270442d14b019c045d17e784582580fb6ed2b157f81ebe80901"
+  },
+  {
+    "path": "Portfolio_GRC_Anas\\Projet_2_TPRM\\05_remediation_suivi.md",
+    "sha256": "323de76574a33b013ad44d99428dfdb09fcd1a45258b9e7450a7790c7d12f352"
+  },
+  {
+    "path": "Portfolio_GRC_Anas\\Projet_2_TPRM\\06_decision_et_synthese_EN.md",
+    "sha256": "2c6c76b63a2ff94aba0afba97e5896184ce6ae6854f63fc5adb6153a321764a3"
+  }
+]

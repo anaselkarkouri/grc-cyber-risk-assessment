@@ -1,0 +1,36 @@
+{
+  "date_consolidation_utc": "2026-10-07T20:12:54.488004+00:00",
+  "provenance": "Extraits textuels réels VBox.log ; seules lignes de diagnostic choisies, pas de secrets",
+  "logs": [
+    {
+      "source": "VBox_initial.log",
+      "lignes_selectionnees": [
+        "00:00:04.037054 HM: HMR3Init: Attempting fall back to NEM: VT-x is not available",
+        "00:00:04.196159 NEM: WHvCapabilityCodeHypervisorPresent is TRUE, so this might work...",
+        "00:01:20.612281 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 22 seconds ago",
+        "00:01:20.618725 VMMDev: GuestHeartBeat: Guest is alive (gone 22 155 296 321 ns)",
+        "00:02:19.463447 TM: Giving up catch-up attempt at a 60 004 327 762 ns lag; new total: 60 004 327 762 ns",
+        "00:02:40.394456 VMMDev: vmmDevHeartbeatFlatlinedTimer: Guest seems to be unresponsive. Last heartbeat received 4 seconds ago"
+      ]
+    },
+    {
+      "source": "VBox_sans_ioapic.log",
+      "lignes_selectionnees": [
+        "00:00:01.506528 HM: HMR3Init: Attempting fall back to NEM: VT-x is not available",
+        "00:00:01.611818 NEM: WHvCapabilityCodeHypervisorPresent is TRUE, so this might work...",
+        "00:01:22.999432 TM: Giving up catch-up attempt at a 60 000 015 627 ns lag; new total: 60 000 015 627 ns",
+        "00:02:29.689360 TM: Giving up catch-up attempt at a 60 000 009 970 ns lag; new total: 120 000 025 597 ns",
+        "00:03:35.146317 TM: Giving up catch-up attempt at a 60 000 011 929 ns lag; new total: 180 000 037 526 ns",
+        "00:04:40.974501 TM: Giving up catch-up attempt at a 60 000 011 896 ns lag; new total: 240 000 049 422 ns"
+      ]
+    }
+  ],
+  "essais": [
+    "BIOS, 2 CPU, KVM : démarrage puis SSH et horloge non répondants",
+    "BIOS, 1 CPU, none : kernel panic IO-APIC + timer",
+    "BIOS, 1 CPU, hyperv : kernel panic IO-APIC + timer",
+    "BIOS, 1 CPU, KVM, IO-APIC désactivé : progression du démarrage puis blocage",
+    "EFI, 2 CPU, KVM, HPET actif, SATA 2 ports : essai en cours, résultat non anticipé"
+  ],
+  "conservation": "Snapshot avant-correction-horloge-CPU conservé ; seules VM et image nouvelles ont été modifiées."
+}

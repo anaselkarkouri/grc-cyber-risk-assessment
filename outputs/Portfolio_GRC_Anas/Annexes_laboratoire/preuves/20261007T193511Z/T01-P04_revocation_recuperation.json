@@ -1,0 +1,11 @@
+{
+  "date_utc": "2026-10-07T19:35:32.096404+00:00",
+  "sessions_avant": 2,
+  "revoke_http": 204,
+  "sessions_apres": 0,
+  "refresh_apres_revocation_http": 400,
+  "refresh_erreur": "invalid_grant",
+  "recuperation": "Pas de mail ni codes de recuperation actives ; LAB-RECOVERY master peut reinitialiser apres controle local. Exception bootstrap locale privee, pas une procedure organisationnelle validee.",
+  "exception": "bootstrap master utilise pour configurer et revoquer ; politique OTP testee sur LAB-ADMIN et LAB-LECTEUR seulement",
+  "limite_jeton": "JWT deja emis peut rester valable jusqu a expiration selon la ressource ; duree configuree 60 secondes. Revocation des sessions et du refresh demontree, revocation immediate universelle du JWT non prouvee."
+}

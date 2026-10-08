@@ -1,0 +1,15 @@
+{
+  "date_collecte_utc": "2026-10-07T20:24:45.729920+00:00",
+  "lecture": {
+    "commande": "sudo stat -c '%n %U:%G %a %s octets' /var/ossec/logs /var/ossec/logs/alerts /var/ossec/logs/archives /var/ossec/logs/alerts/alerts.json /var/ossec/logs/archives/archives.json; sudo grep -E '<(logall|logall_json|jsonout_output|alerts_log|log_alert_level)>' /var/ossec/etc/ossec.conf; sudo find /var/ossec/logs/alerts /var/ossec/logs/archives -maxdepth 3 -type f -printf '%TY-%Tm-%Td %p\\n' | head -n 12",
+    "code": 0,
+    "stdout": "/var/ossec/logs wazuh:wazuh 770 4096 octets\n/var/ossec/logs/alerts wazuh:wazuh 750 4096 octets\n/var/ossec/logs/archives wazuh:wazuh 750 4096 octets\n/var/ossec/logs/alerts/alerts.json wazuh:wazuh 640 2732517 octets\n/var/ossec/logs/archives/archives.json wazuh:wazuh 640 15984032 octets\n    <jsonout_output>yes</jsonout_output>\n    <alerts_log>yes</alerts_log>\n    <logall>no</logall>\n    <logall_json>yes</logall_json>\n    <log_alert_level>3</log_alert_level>\n2026-10-07 /var/ossec/logs/alerts/alerts.json\n2026-10-07 /var/ossec/logs/alerts/alerts.log\n2026-10-07 /var/ossec/logs/alerts/2026/Oct/ossec-alerts-07.json\n2026-10-07 /var/ossec/logs/alerts/2026/Oct/ossec-alerts-07.log\n2026-10-07 /var/ossec/logs/archives/archives.json\n2026-10-07 /var/ossec/logs/archives/archives.log\n2026-10-07 /var/ossec/logs/archives/2026/Oct/ossec-archive-07.log\n2026-10-07 /var/ossec/logs/archives/2026/Oct/ossec-archive-07.json\n",
+    "stderr": ""
+  },
+  "limites": [
+    "Aucun historique de 90 jours sur ce nouveau gestionnaire.",
+    "Droits POSIX et SSH à clé examinés ; sudo root permet de modifier les traces.",
+    "Aucun stockage immuable, séparation complète des opérateurs ou test de récupérabilité à 90 jours.",
+    "Pas d’indexer ni de dashboard dans ce montage minimal."
+  ]
+}

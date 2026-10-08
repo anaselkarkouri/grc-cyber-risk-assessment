@@ -1,0 +1,16 @@
+{
+  "date_utc": "2026-10-07T19:54:56.224895+00:00",
+  "vm": "GRC-Wazuh-T02-20261007",
+  "image_url": "https://cloud-images.ubuntu.com/noble/20260926/noble-server-cloudimg-amd64.vmdk",
+  "sha256_attendu": "58001251111ae414947c62799e5b74c522ecaa6fa4cd654f7846042a0c60cbd1",
+  "sha256_observe": "58001251111ae414947c62799e5b74c522ecaa6fa4cd654f7846042a0c60cbd1",
+  "comparaison": true,
+  "source_checksum": "https://cloud-images.ubuntu.com/noble/20260926/SHA256SUMS",
+  "limite_verification": "SHA256 reçu par HTTPS officiel ; signature GPG du manifeste non vérifiée.",
+  "memoire_mio": 2048,
+  "cpu": 2,
+  "disque_mio": 20480,
+  "ip_hostonly": "192.168.56.10",
+  "ssh_nat": "127.0.0.1:22022",
+  "portee": "Gestionnaire et fichiers alerts/archives JSON uniquement ; pas de dashboard ni indexer, laboratoire personnel."
+}

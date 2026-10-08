@@ -1,0 +1,56 @@
+{
+  "date_utc": "2026-10-07T19:37:01.806651+00:00",
+  "observations": [
+    {
+      "compte": "LAB-ADMIN",
+      "nouvelle_session_http": true,
+      "mot_de_passe_http": 200,
+      "token_apres_mot_de_passe": false,
+      "challenge_otp_apres_mot_de_passe": true,
+      "otp_valide_token_http": 200
+    },
+    {
+      "compte": "LAB-LECTEUR",
+      "nouvelle_session_http": true,
+      "mot_de_passe_http": 200,
+      "token_apres_mot_de_passe": false,
+      "challenge_otp_apres_mot_de_passe": true,
+      "otp_valide_token_http": 200
+    },
+    {
+      "compte": "LAB-ADMIN",
+      "nouvelle_session_http": true,
+      "mot_de_passe_http": 200,
+      "token_apres_mot_de_passe": false,
+      "challenge_otp_apres_mot_de_passe": true
+    },
+    {
+      "compte": "LAB-ADMIN",
+      "nouvelle_session_http": true,
+      "mot_de_passe_http": 200,
+      "token_apres_mot_de_passe": false,
+      "challenge_otp_apres_mot_de_passe": true,
+      "mauvais_otp_http": 200,
+      "mauvais_otp_refuse": true
+    },
+    {
+      "compte": "LAB-LECTEUR",
+      "nouvelle_session_http": true,
+      "mot_de_passe_http": 200,
+      "token_apres_mot_de_passe": false,
+      "challenge_otp_apres_mot_de_passe": true,
+      "otp_valide_token_http": 200
+    },
+    {
+      "compte": "LAB-ADMIN",
+      "nouvelle_session_http": true,
+      "mot_de_passe_http": 200,
+      "token_apres_mot_de_passe": false,
+      "challenge_otp_apres_mot_de_passe": true,
+      "otp_valide_token_http": 200
+    }
+  ],
+  "facteur": "TOTP RFC 6238, service Keycloak, 6 chiffres/30 secondes SHA1",
+  "secrets_exportes": false,
+  "limite": "TOTP genere par automatisation sur ce meme poste ; pas de preuve de possession d un telephone distinct ni de resistance au phishing"
+}

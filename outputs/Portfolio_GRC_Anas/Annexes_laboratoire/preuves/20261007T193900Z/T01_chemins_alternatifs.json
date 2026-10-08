@@ -1,0 +1,18 @@
+{
+  "date_utc": "2026-10-07T19:39:31.895485+00:00",
+  "tests": [
+    {
+      "client": "grc-evidence",
+      "mot_de_passe_seul_http": 400,
+      "error": "unauthorized_client",
+      "token_delivre": false
+    },
+    {
+      "client": "admin-cli",
+      "mot_de_passe_seul_http": 400,
+      "error": "invalid_grant",
+      "token_delivre": false
+    }
+  ],
+  "limite": "Deux clients examines seulement ; ne remplace pas un inventaire de tous les flux et clients en production."
+}

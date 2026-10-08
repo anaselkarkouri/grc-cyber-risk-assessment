@@ -1,0 +1,8 @@
+Date de collecte de cette trace : 2026-10-07T19:55:40.079097+00:00
+Provenance : sorties réelles des commandes exécutées dans cette mission, retranscrites sans secrets.
+Get-Content ossec.conf : Access to the path 'C:\Program Files (x86)\ossec-agent\ossec.conf' is denied.
+Get-Content ossec.log : Access to the path 'C:\Program Files (x86)\ossec-agent\ossec.log' is denied.
+Get-WinEvent -LogName Security -MaxEvents 1 : Attempted to perform an unauthorized operation.
+Start-Process powershell.exe -Verb RunAs : L’opération a été annulée par l’utilisateur.
+Ces messages prouvent une restriction de cette session. Ils ne prouvent ni absence de gestionnaire Wazuh ni défaut de collecte.
+État de la première tentative uniquement. Une UAC ultérieure acceptée a permis l’inventaire et un événement de test ; voir T02-P01/P02.

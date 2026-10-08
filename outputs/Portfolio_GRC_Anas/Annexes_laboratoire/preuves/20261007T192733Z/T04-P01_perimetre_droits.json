@@ -1,0 +1,37 @@
+{
+  "date_utc": "2026-10-07T19:27:34.858610+00:00",
+  "repo": "C:\\Users\\admin\\Documents\\Codex\\2026-10-06\\cherche-tres-bien-et-profondement-et\\work\\grc_laboratoire\\execution_20261007T192733Z\\T04_secrets_git\\depot_demo",
+  "version": {
+    "date_utc": "2026-10-07T19:27:34.895166+00:00",
+    "commande": [
+      "C:\\Program Files\\Git\\cmd\\git.exe",
+      "--version"
+    ],
+    "code": 0,
+    "stdout": "git version 2.48.1.windows.1\n",
+    "stderr": ""
+  },
+  "droits": [
+    {
+      "date_utc": "2026-10-07T19:27:34.958601+00:00",
+      "commande": [
+        "icacls.exe",
+        "C:\\Users\\admin\\Documents\\Codex\\2026-10-06\\cherche-tres-bien-et-profondement-et\\work\\grc_laboratoire\\execution_20261007T192733Z\\T04_secrets_git\\depot_demo"
+      ],
+      "code": 0,
+      "stdout": "C:\\Users\\admin\\Documents\\Codex\\2026-10-06\\cherche-tres-bien-et-profondement-et\\work\\grc_laboratoire\\execution_20261007T192733Z\\T04_secrets_git\\depot_demo DESKTOP-3SQ1K5Q\\CodexSandboxUsers:(I)(OI)(CI)(M,DC)\n                                                                                                                                                          S-1-5-21-2662677828-1466951677-2325617941-1215762659:(I)(OI)(CI)(M,DC)\n                                                                                                                                                          S-1-5-21-1220936331-703112496-2524298523-2650420902:(I)(OI)(CI)(RX,W)\n                                                                                                                                                          S-1-5-21-1512903184-610473712-2836880915-3540849950:(I)(OI)(CI)(RX,W)\n                                                                                                                                                          S-1-5-21-119972183-3004304752-2601772536-2091825353:(I)(OI)(CI)(RX,W)\n                                                                                                                                                          S-1-5-21-1250090963-3867925591-161807275-352272268:(I)(OI)(CI)(RX,W)\n                                                                                                                                                          S-1-5-21-3326298252-3699782925-3528663943-436242575:(I)(OI)(CI)(RX,W)\n                                                                                                                                                          S-1-5-21-1663238207-286782694-2267841947-842044430:(I)(OI)(CI)(RX,W)\n                                                                                                                                                          S-1-5-21-2354147179-4003854254-1384485662-3907006528:(I)(OI)(CI)(RX,W)\n                                                                                                                                                          AUTORITE NT\\Syst�me:(I)(OI)(CI)(F)\n                                                                                                                                                          BUILTIN\\Administrateurs:(I)(OI)(CI)(F)\n                                                                                                                                                          DESKTOP-3SQ1K5Q\\admin:(I)(OI)(CI)(F)\n\n1 fichiers correctement trait�s�; �chec du traitement de 0 fichiers\n",
+      "stderr": ""
+    },
+    {
+      "date_utc": "2026-10-07T19:27:34.974918+00:00",
+      "commande": [
+        "icacls.exe",
+        "C:\\Users\\admin\\Documents\\Codex\\2026-10-06\\cherche-tres-bien-et-profondement-et\\work\\grc_laboratoire\\execution_20261007T192733Z\\T04_secrets_git\\depot_demo\\.git"
+      ],
+      "code": 0,
+      "stdout": "C:\\Users\\admin\\Documents\\Codex\\2026-10-06\\cherche-tres-bien-et-profondement-et\\work\\grc_laboratoire\\execution_20261007T192733Z\\T04_secrets_git\\depot_demo\\.git DESKTOP-3SQ1K5Q\\CodexSandboxUsers:(I)(OI)(CI)(M,DC)\n                                                                                                                                                               S-1-5-21-2662677828-1466951677-2325617941-1215762659:(I)(OI)(CI)(M,DC)\n                                                                                                                                                               S-1-5-21-1220936331-703112496-2524298523-2650420902:(I)(OI)(CI)(RX,W)\n                                                                                                                                                               S-1-5-21-1512903184-610473712-2836880915-3540849950:(I)(OI)(CI)(RX,W)\n                                                                                                                                                               S-1-5-21-119972183-3004304752-2601772536-2091825353:(I)(OI)(CI)(RX,W)\n                                                                                                                                                               S-1-5-21-1250090963-3867925591-161807275-352272268:(I)(OI)(CI)(RX,W)\n                                                                                                                                                               S-1-5-21-3326298252-3699782925-3528663943-436242575:(I)(OI)(CI)(RX,W)\n                                                                                                                                                               S-1-5-21-1663238207-286782694-2267841947-842044430:(I)(OI)(CI)(RX,W)\n                                                                                                                                                               S-1-5-21-2354147179-4003854254-1384485662-3907006528:(I)(OI)(CI)(RX,W)\n                                                                                                                                                               AUTORITE NT\\Syst�me:(I)(OI)(CI)(F)\n                                                                                                                                                               BUILTIN\\Administrateurs:(I)(OI)(CI)(F)\n                                                                                                                                                               DESKTOP-3SQ1K5Q\\admin:(I)(OI)(CI)(F)\n\n1 fichiers correctement trait�s�; �chec du traitement de 0 fichiers\n",
+      "stderr": ""
+    }
+  ],
+  "distant": false
+}

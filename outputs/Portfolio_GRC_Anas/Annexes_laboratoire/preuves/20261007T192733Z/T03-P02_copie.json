@@ -1,0 +1,24 @@
+{
+  "debut_utc": "2026-10-07T19:27:35.002303+00:00",
+  "fin_utc": "2026-10-07T19:27:35.004494+00:00",
+  "duree_secondes": 0.002091300000756746,
+  "mecanisme": "Python zipfile ZIP_DEFLATED, archive locale de fichiers",
+  "archive": "C:\\Users\\admin\\Documents\\Codex\\2026-10-06\\cherche-tres-bien-et-profondement-et\\work\\grc_laboratoire\\execution_20261007T192733Z\\T03_sauvegarde_restauration\\sauvegarde_tickets.zip",
+  "taille": 656,
+  "sha256": "8070450a97c21799443f873b91558d33acb95bc6f0c4f28f670c8ce7df7afd21",
+  "fichiers": [
+    "LAB-001.json",
+    "LAB-002.json",
+    "LAB-003.json"
+  ],
+  "droits": {
+    "date_utc": "2026-10-07T19:27:35.037035+00:00",
+    "commande": [
+      "icacls.exe",
+      "C:\\Users\\admin\\Documents\\Codex\\2026-10-06\\cherche-tres-bien-et-profondement-et\\work\\grc_laboratoire\\execution_20261007T192733Z\\T03_sauvegarde_restauration\\sauvegarde_tickets.zip"
+    ],
+    "code": 0,
+    "stdout": "C:\\Users\\admin\\Documents\\Codex\\2026-10-06\\cherche-tres-bien-et-profondement-et\\work\\grc_laboratoire\\execution_20261007T192733Z\\T03_sauvegarde_restauration\\sauvegarde_tickets.zip DESKTOP-3SQ1K5Q\\CodexSandboxUsers:(I)(M,DC)\n                                                                                                                                                                                  S-1-5-21-2662677828-1466951677-2325617941-1215762659:(I)(M,DC)\n                                                                                                                                                                                  S-1-5-21-1220936331-703112496-2524298523-2650420902:(I)(RX,W)\n                                                                                                                                                                                  S-1-5-21-1512903184-610473712-2836880915-3540849950:(I)(RX,W)\n                                                                                                                                                                                  S-1-5-21-119972183-3004304752-2601772536-2091825353:(I)(RX,W)\n                                                                                                                                                                                  S-1-5-21-1250090963-3867925591-161807275-352272268:(I)(RX,W)\n                                                                                                                                                                                  S-1-5-21-3326298252-3699782925-3528663943-436242575:(I)(RX,W)\n                                                                                                                                                                                  S-1-5-21-1663238207-286782694-2267841947-842044430:(I)(RX,W)\n                                                                                                                                                                                  S-1-5-21-2354147179-4003854254-1384485662-3907006528:(I)(RX,W)\n                                                                                                                                                                                  AUTORITE NT\\Syst�me:(I)(F)\n                                                                                                                                                                                  BUILTIN\\Administrateurs:(I)(F)\n                                                                                                                                                                                  DESKTOP-3SQ1K5Q\\admin:(I)(F)\n\n1 fichiers correctement trait�s�; �chec du traitement de 0 fichiers\n",
+    "stderr": ""
+  }
+}

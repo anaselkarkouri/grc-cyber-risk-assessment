@@ -1,0 +1,8 @@
+{
+  "date_collecte_utc": "2026-10-07T20:27:18.295162+00:00",
+  "commande": "date --utc --iso-8601=seconds; id -nG; if test -r /var/ossec/logs/archives/archives.json; then printf 'lecture_sans_sudo=permise\\n'; else printf 'lecture_sans_sudo=refusee\\n'; fi; sudo grep -nE '^monitord\\.(rotate_log|keep_log_days|compress)' /var/ossec/etc/internal_options.conf /var/ossec/etc/local_internal_options.conf; sudo find /etc/cron.d /etc/cron.daily /etc/logrotate.d -maxdepth 1 -iname '*wazuh*' -print",
+  "stdout": "2026-10-07T20:27:18+00:00\nlabgrc sudo\nlecture_sans_sudo=refusee\n/var/ossec/etc/internal_options.conf:277:monitord.compress=1\n/var/ossec/etc/internal_options.conf:286:monitord.rotate_log=1\n/var/ossec/etc/internal_options.conf:289:monitord.keep_log_days=31\n",
+  "stderr": "",
+  "code": 0,
+  "limite": "Lecture de configuration et de droits uniquement ; aucun historique de 90 jours ni résistance à un administrateur démontrés."
+}
