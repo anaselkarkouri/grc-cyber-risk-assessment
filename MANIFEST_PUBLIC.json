@@ -15,7 +15,11 @@
     },
     {
       "path": "README.md",
-      "sha256": "348dc4c4280f64c8387d977d9224648254d565fc0e4db14974eea9f16adb20d5"
+      "sha256": "500f8b03d99828f661f60bda10d4c4e7ee95247b09adb49da7f6b5745b1f6646"
+    },
+    {
+      "path": "docs/LECTURE_RAPIDE.md",
+      "sha256": "76ddd2c7b8556223a4ae78505ec393669602f5ddeb24950584af215c1eb46ed5"
     },
     {
       "path": "outputs/Portfolio_GRC_Anas/Annexes_laboratoire/INVENTAIRE_LABORATOIRE.md",

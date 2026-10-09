@@ -16,6 +16,7 @@ Dix actifs, douze risques évalués et douze mesures de traitement proposées. L
 
 ## Lire le dossier
 
+- [Guide de lecture en dix minutes : démarche, résultats, limites et entretien](docs/LECTURE_RAPIDE.md)
 - [Rapport final — 51 pages](outputs/Projet_1_SSI_rapport_final.pdf)
 - [Rapport Markdown](outputs/Projet_1_SSI_rapport_final.md)
 - [Synthèse direction](outputs/Portfolio_GRC_Anas/Projet_1_SSI/08_synthese_direction.md)
