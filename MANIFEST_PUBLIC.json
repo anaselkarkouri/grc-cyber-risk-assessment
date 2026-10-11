@@ -15,11 +15,15 @@
     },
     {
       "path": "README.md",
-      "sha256": "500f8b03d99828f661f60bda10d4c4e7ee95247b09adb49da7f6b5745b1f6646"
+      "sha256": "9ac0f370bf7311086773195891a49746f2132f263887786ac59f4383d72bbb3c"
     },
     {
       "path": "docs/LECTURE_RAPIDE.md",
       "sha256": "76ddd2c7b8556223a4ae78505ec393669602f5ddeb24950584af215c1eb46ed5"
+    },
+    {
+      "path": "docs/OVERVIEW_EN.md",
+      "sha256": "44f9b6679461fc41d38f18433ae34fa52a6a070f4a448c90e3b275fc6cfcf637"
     },
     {
       "path": "outputs/Portfolio_GRC_Anas/Annexes_laboratoire/INVENTAIRE_LABORATOIRE.md",

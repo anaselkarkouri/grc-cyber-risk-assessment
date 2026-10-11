@@ -1,40 +1,48 @@
 # Évaluation des risques cyber et des contrôles SSI
 
-Portfolio GRC cyber — étude de cas documentaire et laboratoire technique.
+**Étude de cas GRC cyber : PME fictive et tests dans un laboratoire personnel.**
 
-Dix actifs, douze risques évalués et douze mesures de traitement proposées. Le dossier relie contexte, justificatifs, constats, risques, contrôles et actions pour préparer une décision de sécurité argumentée.
+Le dossier relie actifs, scénarios, constats, risques, mesures de sécurité et preuves attendues. Il prépare une décision argumentée : quels risques traiter en priorité, qui en est responsable et comment vérifier la clôture d'une action ?
 
-## Livrables
+[Guide de lecture en dix minutes](docs/LECTURE_RAPIDE.md) · [English overview](docs/OVERVIEW_EN.md)
 
-- Cadrage du SMSI et inventaire des actifs.
-- Méthode de cotation vraisemblance × impact, registre des risques et priorisation.
-- Évaluation documentaire de contrôles, extrait de déclaration d’applicabilité et plan de traitement.
-- PSSI, procédures et synthèse destinée à la direction.
-- Profil actuel/cible NIST CSF 2.0 sur treize sous-catégories.
-- Registre Excel avec validation des saisies, formules protégées et tableau de bord.
-- Annexes techniques : Keycloak/MFA, collecte et alerte Wazuh, restauration et historique Git.
+## Résultats et livrables
 
-## Lire le dossier
+- **10 actifs et 12 risques**, avec cotations, hypothèses et propriétaires.
+- **12 actions de traitement proposées**, responsabilités et critères de clôture.
+- Cadrage du SMSI, PSSI, procédures et synthèse direction.
+- Extrait de déclaration d'applicabilité (**20 mesures**) et profils actuel/cible **NIST CSF 2.0 sur 13 sous-catégories**.
+- Registre Excel avec validations, formules protégées et tableau de bord.
+- Tests de laboratoire : Keycloak/habilitations/MFA, rapprochement Windows/Wazuh, restauration et historique Git.
 
-- [Guide de lecture en dix minutes : démarche, résultats, limites et entretien](docs/LECTURE_RAPIDE.md)
-- [Rapport final — 51 pages](outputs/Projet_1_SSI_rapport_final.pdf)
-- [Rapport Markdown](outputs/Projet_1_SSI_rapport_final.md)
-- [Synthèse direction](outputs/Portfolio_GRC_Anas/Projet_1_SSI/08_synthese_direction.md)
-- [Dossier SSI détaillé](outputs/Portfolio_GRC_Anas/Projet_1_SSI)
+## Parcours de lecture
 
-## Références et vérifications
+1. [Contexte, périmètre et actifs](outputs/Portfolio_GRC_Anas/Projet_1_SSI/01_contexte_perimetre_actifs.md).
+2. [Méthode et registre des risques](outputs/Portfolio_GRC_Anas/Projet_1_SSI/02_methode_registre_risques.md).
+3. [Traitement, contrôles et extrait de SoA](outputs/Portfolio_GRC_Anas/Projet_1_SSI/03_traitement_controles_SoA.md).
+4. [Synthèse direction](outputs/Portfolio_GRC_Anas/Projet_1_SSI/08_synthese_direction.md).
 
-Repères ISO/IEC 27001, 27002 et 27005 (2022), NIST CSF 2.0 et gestion du risque fournisseur. [Sources et portée](outputs/Portfolio_GRC_Anas/SOURCES.md).
+[Rapport final PDF](outputs/Projet_1_SSI_rapport_final.pdf) · [Rapport Markdown](outputs/Projet_1_SSI_rapport_final.md) · [Registres Excel](outputs/Registres_GRC_Anas.xlsx)
 
-Le tableur courant a passé 28 essais de recalcul, avec 120 résultats numériques concordants lors de la révision. Les essais du laboratoire sont séparés des conclusions documentaires : T01 Keycloak/MFA, T03 restauration et T04 historique Git réussis dans leur périmètre ; T02 établit un événement Windows 4625, sa réception et son alerte Wazuh.
+## Vérifications documentées
 
-- [Registres Excel des deux cas](outputs/Registres_GRC_Anas.xlsx)
-- [Matrice des preuves](outputs/Portfolio_GRC_Anas/Annexes_laboratoire/MATRICE_PREUVES.md)
-- [Fiches de tests et exports](outputs/Portfolio_GRC_Anas/Annexes_laboratoire)
-- [Scripts et instructions de reproduction Windows](outputs/scripts_laboratoire/README_REPRODUCTION.md)
+| Test | Observation | Portée |
+| --- | --- | --- |
+| T01 — Keycloak | Habilitations, MFA TOTP et révocation vérifiés | Comptes du laboratoire |
+| T02 — Windows/Wazuh | Même événement 4625 rapproché entre source, réception et alerte | Partiel : conservation sur 90 jours non démontrée |
+| T03 — Restauration | Trois fichiers restaurés, contenus et SHA-256 identiques | Fichiers testés ; reprise d'un service complet non validée |
+| T04 — Historique Git | Marqueur retiré du présent, conservé dans un ancien commit | Marqueur de test, sans secret réel |
 
-Les organisations « Atlas Services » et « SupportCloud », ainsi que leurs pièces E/V, sont des scénarios pédagogiques fictifs. Les tests techniques concernent un laboratoire personnel ; les objectifs cibles sont conditionnels. Le portfolio est une étude de cas, sans attribution de certification ISO. Les rapports et les pièces publiques sont fournis dans leur version documentaire révisée ; les secrets, le CV, les machines virtuelles et les exports privés ne font pas partie du dépôt.
+[Matrice des preuves](outputs/Portfolio_GRC_Anas/Annexes_laboratoire/MATRICE_PREUVES.md) · [Fiches et exports](outputs/Portfolio_GRC_Anas/Annexes_laboratoire) · [Instructions de reproduction](outputs/scripts_laboratoire/README_REPRODUCTION.md)
 
-Auteur du portfolio : **Anas El Karkouri**. Analyse et préparation réalisées avec assistance d’outils IA, revue et appropriation du dossier à suivre selon le [guide](outputs/Portfolio_GRC_Anas/GUIDE_APPROPRIATION.md).
+La révision du tableur a conservé **28 essais de recalcul et 120 résultats numériques concordants**. La CI contrôle l'intégrité des fichiers ; elle ne rejoue pas les tests techniques.
 
-[Projet complémentaire](https://github.com/anaselkarkouri/grc-saas-vendor-risk-assessment). Les documents communs sont conservés dans les deux dépôts pour maintenir leurs références croisées.
+## Périmètre et limites
+
+Atlas Services et ses pièces E01–E10 sont fictifs. Les tests personnels illustrent la vérification de certaines mesures ; ils ne valident pas les contrôles de cette entreprise simulée. Les actions restent proposées et les cotations cibles sont conditionnelles.
+
+L'extrait de SoA et les profils NIST sont partiels. Les références ISO/IEC 27001, 27002 et 27005 (2022) servent de repères d'apprentissage ; ce cas ne représente pas un SMSI certifié ni un audit professionnel complet. [Sources et portée](outputs/Portfolio_GRC_Anas/SOURCES.md).
+
+**Auteur : Anas El Karkouri.** Dossier préparé avec assistance d'outils IA ; [guide d'appropriation](outputs/Portfolio_GRC_Anas/GUIDE_APPROPRIATION.md).
+
+[Cas complémentaire : risque fournisseur SaaS](https://github.com/anaselkarkouri/grc-saas-vendor-risk-assessment). Les documents communs sont conservés dans les deux dépôts pour maintenir les références croisées.
